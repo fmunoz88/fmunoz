@@ -1,0 +1,165 @@
+/* ==== Google font ==== */
+@import url('http://fonts.googleapis.com/css?family=Lato:400,300,700,900');
+
+html, body {height:100%;}
+
+body {
+	color: white;
+	margin: 0px;
+	padding: 0px;
+}
+
+.clear { clear: both; }
+
+body, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+	font-family: 'Lato', sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+	color:#222;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-style: normal;
+	margin: 0 0 20px 0;
+}
+h1 { font-size: 40px; line-height: 30px; }
+h2 { font-size: 32px; }
+h3 { font-size: 24px; }
+h4 { font-size: 18px; }
+h5 { font-size: 16px; }
+.txt-light { font-weight: 300; }
+.txt-regular { font-weight: 400; }
+.txt-bold { font-weight: 700; }
+.txt-uppercase { text-transform: uppercase; }
+
+a {text-decoration:none; }
+
+ul, li {list-style: none;}
+
+
+/* Positions and Floats */
+
+.relative { position: relative !important; }
+
+.absolute { position: absolute !important; }
+
+.fixed { position:fixed !important; }
+
+.f-left { float:left; }
+
+.f-right { float: right; } 
+
+.z-1 { z-index: 1; }
+
+.fullscreen{
+	width: 100%;
+	height: 100%;
+	left:0;
+	top:0;
+}
+
+#container{
+	width: auto;
+	height: auto;
+	padding:0;
+	margin:0;
+}
+
+/* Navigation section */
+
+#navigation{
+	width:100%;
+	height: 75px;
+	top:0;
+	padding:0;
+	margin:0;
+	position: fixed;
+	z-index: 9999;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	transition: all 0.5s;
+	-webkit-transform: translateY(0%);
+	-moz-transform: translateY(0%);
+	transform: translateY(0%);
+	background-color: rgba(34, 34, 34, 0.4);
+}
+
+#nav-inner{
+	width:100%;
+	max-width:1170px;
+	margin: 0px auto;
+	padding:0;
+	height: 100%;
+}
+
+/* LOGO */
+
+#nav-inner .logo{
+	width:auto;
+	height: auto;
+	position: relative;
+	left:0;
+	top:50%;
+	float:left;
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+
+/*.nav-inner .logo a img{
+	max-height: 50px;
+}*/
+
+/* Navigation */
+
+.nav-menu{
+	float: right;
+	height: 100%;
+}
+
+.nav-menu ul{
+	height: 100%;
+}
+
+.nav-menu ul li{
+	float: left;
+	height: 100%;
+	margin-top: -8px;
+}
+
+.nav-menu ul li a{
+	height: 100%;
+	line-height: 57px;
+	color:inherit;
+	font-size:15px;
+	font-weight: inherit;
+	padding-left:19px;
+	padding-right:19px;
+	cursor: pointer;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+
+/* Home */
+
+#home{
+	z-index: 6;
+	position:relative;
+    top:0;
+    left:0;
+    height:100%;
+    width:100%;
+	background: url(../images/backHeader.jpg) no-repeat; 
+	background-position: 0px 100%;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.class {
+	
+}
+
