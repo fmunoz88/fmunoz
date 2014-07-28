@@ -34,7 +34,11 @@ h5 { font-size: 16px; }
 
 a {text-decoration:none; }
 
-ul, li {list-style: none;}
+ul, li {
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
 
 
 /* Positions and Floats */
@@ -58,11 +62,21 @@ ul, li {list-style: none;}
 	top:0;
 }
 
+/* Containers */
+
 #container{
 	width: auto;
 	height: auto;
 	padding:0;
 	margin:0;
+}
+
+.inner{
+	height: auto;
+	max-width: 1170px;
+	position: relative;
+	margin: 0 auto;
+	padding:0;
 }
 
 /* Navigation section */
@@ -75,20 +89,18 @@ ul, li {list-style: none;}
 	margin:0;
 	position: fixed;
 	z-index: 9999;
-	-webkit-transition: all 0.5s;
+	/*-webkit-transition: all 0.5s;
 	-moz-transition: all 0.5s;
 	transition: all 0.5s;
 	-webkit-transform: translateY(0%);
 	-moz-transform: translateY(0%);
-	transform: translateY(0%);
+	transform: translateY(0%);*/
 	background-color: rgba(34, 34, 34, 0.4);
 }
 
 #nav-inner{
-	width:100%;
 	max-width:1170px;
 	margin: 0px auto;
-	padding:0;
 	height: 100%;
 }
 
@@ -124,23 +136,30 @@ ul, li {list-style: none;}
 .nav-menu ul li{
 	float: left;
 	height: 100%;
-	margin-top: -8px;
+	cursor: pointer;
 }
 
-.nav-menu ul li a{
-	height: 100%;
-	line-height: 57px;
-	color:inherit;
-	font-size:15px;
-	font-weight: inherit;
-	padding-left:19px;
-	padding-right:19px;
-	cursor: pointer;
+.nav-menu ul li:hover{
+	background-color: rgba(34, 34, 34, 0.3);
+	color: red;
 	-webkit-transition: all 0.3s;
 	-moz-transition: all 0.3s;
 	transition: all 0.3s;
 }
 
+.nav-menu ul li a{
+	height: 100%;
+	line-height: 73px;
+	color:inherit;
+	font-size:15px;
+	font-weight: inherit;
+	padding: 26px 19px 26px 19px;
+	cursor: pointer;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+	position: relative;
+}
 
 /* Home */
 
@@ -159,3 +178,11 @@ ul, li {list-style: none;}
 	background-size: cover;
 }
 
+/* Page Content */
+
+section#about{
+	margin:0;
+	width: 100%;
+	padding:25px 0;
+	height: 600px;
+}

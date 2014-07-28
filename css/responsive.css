@@ -1,0 +1,10 @@
+/* responsive */
+
+@media only screen and (max-width: 1185px){
+
+	#nav-inner, .inner{
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
+}
