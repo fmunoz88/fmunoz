@@ -8,3 +8,9 @@
 	}
 
 }
+
+@media only screen and (max-width: 1300px){
+	.nav-menu ul.dropdown-menu-1 li {
+		margin-left: -55px;
+	}
+}
