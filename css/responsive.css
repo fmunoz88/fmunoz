@@ -7,4 +7,19 @@
 		padding-right: 20px;
 	}
 
+<<<<<<< HEAD
+=======
+}
+
+@media only screen and (max-width: 1300px){
+	.nav-menu ul.dropdown-menu-1 li {
+		margin-left: -55px;
+	}
+}
+
+@media only screen and (max-width: 760px){
+	.nav-menu {
+		float: none;
+	}
+>>>>>>> 2c11bf59ea
 }
