@@ -1,5 +1,5 @@
 /* ==== Google font ==== */
-@import url('http://fonts.googleapis.com/css?family=Lato:400,300,700,900');
+/*@import url('http://fonts.googleapis.com/css?family=Lato:400,300,700,900');*/
 
 html, body {height:100%;}
 
@@ -31,7 +31,9 @@ h5 { font-size: 16px; }
 .txt-bold { font-weight: 700; }
 .txt-uppercase { text-transform: uppercase; }
 
-a {text-decoration:none; }
+A {text-decoration:none}
+A:link {text-decoration:none}
+A:visited {text-decoration:none}
 
 ul, li {
 	list-style: none;
@@ -85,6 +87,7 @@ header#navigation {
 }
 
 /* LOGO */
+
 .logo {
 	color: white !important;
 }
@@ -123,10 +126,13 @@ header#navigation {
 }
 
 /* dropdown */
+nav.nav-menu li.open {
+	background-color: transparent;
+}
 
 /* Home */
 
-#home{
+#home {
 	z-index: 6;
 	position:relative;
     top:0;
@@ -143,7 +149,7 @@ header#navigation {
 
 /* Page Content */
 
-section#about{
+section#about {
 	margin:0;
 	width: 100%;
 	padding:25px 0;
