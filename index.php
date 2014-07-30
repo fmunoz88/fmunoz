@@ -9,28 +9,6 @@
 	<link rel="stylesheet" href="css/responsive.css">
 </head>
 <body>
-<<<<<<< HEAD
-	<nav id="navigation">
-		<div id="nav-inner">
-			<div class="logo">LOGO</div>
-			<div class="nav-menu">
-				<ul>
-					<li>
-						<a href="">MENÚ 1</a>
-					</li>
-					<li>
-						<a href="">MENÚ 2</a>
-					</li>
-					<li>
-						<a href="">MENÚ 3</a>
-					</li>
-					<li>
-						<a href="">MENÚ 4</a>
-					</li> 
-					<li>
-						<a href="">MENÚ 5</a>
-					</li>
-=======
 	<header id="navigation" class="navbar navbar-default navbar-fixed-top background-nav" role="navigation">
       <div class="container">
         <div class="navbar-header">
@@ -55,7 +33,6 @@
 					<li><a href="">opción 2</a></li>
 					<li><a href="">opcion 3</a></li>
 					<li><a href="">opcion 4</a></li>
->>>>>>> 2c11bf59ea
 				</ul>
             </li> 
           </ul>
