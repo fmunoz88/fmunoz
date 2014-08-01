@@ -58,6 +58,16 @@
 		<div id="home-inner">
 		</div>
 	</section>
+	<section id="separator-1">
+		<div class="container">
+			<div class="f-left">
+				<h2>BARRA IZQUIERDA</h2>
+			</div>
+			<div class="f-right">
+				<h2>BARRA DERECHA</h2>
+			</div>
+		</div>
+	</section>
 	<section id="about">
 		<div class="container">
 			<h2>ABOUT</h2>
