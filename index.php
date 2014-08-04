@@ -19,9 +19,11 @@
     <![endif]-->
 
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/main.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src='js/jquery.scrollto.js'></script>
 </head>
 <body>
 	<header id="navigation" class="navbar navbar-default navbar-fixed-top background-nav" role="navigation">
@@ -33,13 +35,13 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand logo" href="#">LOGO</a>
+          <a class="navbar-brand logo" href="">LOGO</a>
         </div>
         <nav class="nav-menu navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="">MENÚ 1</a></li>
-			<li><a href="">MENÚ 2</a></li>
-			<li><a href="">MENÚ 3</a></li>
+            <li><a href="#about">ABOUT</a></li>
+			<li><a href="#portafolio">WORKS</a></li>
+			<li><a href="#contact">CONTACT ME</a></li>
 			<li><a href="">MENÚ 4</a></li>
 			<li class="dropdown" >
 				<a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <span class="caret"></span></a>
@@ -58,8 +60,8 @@
 		<div id="home-inner">
 		</div>
 	</section>
-	<section id="separator-1">
-		<div class="container">
+	<section class="separator">
+		<div class="container separator-1">
 			<div class="f-left">
 				<h2>BARRA IZQUIERDA</h2>
 			</div>
@@ -73,8 +75,34 @@
 			<h2>ABOUT</h2>
 		</div>
 	</section>
-	<section id="portafolio"><h2>WORKS</h2></section>
-	<section id="contact"><h2>CONTACT ME</h2></section>
-	<section id="footer"></section>
+	<section id="portafolio">
+		<div class="container">
+			<h2>WORKS</h2>
+		</div>
+	</section>
+	<section class="separator">
+		<div class="container">
+			<div id="separator-2">
+				<div class="f-left">
+					<h2>LOGO IZQUIERDA</h2>
+				</div>
+				<div class="f-right">
+					<h2>LOGO DERECHA</h2>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="contact">
+		<div class="container">
+			<h2>CONTACT ME</h2>
+		</div>
+	</section>
+	<section id="footer">
+		<div class="container">
+			<h2>FOOTER</h2>
+		</div>
+	</section>
+	<script>
+</script>
 </body>
 </html>
