@@ -132,7 +132,7 @@ nav.nav-menu li.open {
 
 section.separator {
 	background: #2E2E2E;
-	height: 150px;
+	min-height: 150px;
 	color: #E6E6E6;
 }
 
@@ -165,6 +165,18 @@ section.separator .container h2 {
 	-o-background-size: cover;
 	background-size: cover;
 }
+
+/*
+.image1{
+	background-image:url(../images/back-1.jpg);
+}
+
+.image2{
+	background-image:url(../images/back-2.jpg);
+}
+.image3{
+	background-image:url(../images/back-3.jpg);
+}*/
 
 /* Page Content */
 
