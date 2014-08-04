@@ -8,40 +8,102 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/responsive.css">
+	<link rel="stylesheet" type="text/css" href="css/component.css" />
 	<!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
-	<header id="navigation" class="navbar navbar-default navbar-fixed-top background-nav" role="navigation">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand logo" href="">LOGO</a>
-        </div>
-        <nav class="nav-menu navbar-collapse collapse">
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="#about">ABOUT</a></li>
-			<li><a href="#portafolio">WORKS</a></li>
-			<li><a href="#contact">CONTACT ME</a></li>
-			<li><a href="">MENÚ 4</a></li>
-			<li class="dropdown" >
-				<a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <span class="caret"></span></a>
-				<ul class="dropdown-menu background-nav" role="menu">
-					<li><a href="">opcion 1</a></li>
-					<li><a href="">opción 2</a></li>
-					<li><a href="">opcion 3</a></li>
-					<li><a href="">opcion 4</a></li>
-				</ul>
-            </li> 
-          </ul>
-        </div><!--/.nav-collapse -->
-      </nav>
-    </header>
+	<div class="main">
+	<nav id="cbp-hrmenu" class="cbp-hrmenu">
+		<ul>
+			<li class="f-right">
+				<a href="#">Projects</a>
+				<div class="cbp-hrsub">
+					<div class="cbp-hrsub-inner"> 
+						<div>
+							<h4>Learning &amp; Games</h4>
+							<ul>
+								<li><a href="#">Catch the Bullet</a></li>
+								<li><a href="#">Snoopydoo</a></li>
+								<li><a href="#">Fallen Angel</a></li>
+								<li><a href="#">Sui Maker</a></li>
+								<li><a href="#">Wave Master</a></li>
+								<li><a href="#">Golf Pro</a></li>
+							</ul>
+							<h4>Utilities</h4>
+							<ul>
+								<li><a href="#">Gadget Finder</a></li>
+								<li><a href="#">Green Tree Express</a></li>
+							</ul>
+						</div>
+						<div>
+							<h4>Entertainment</h4>
+							<ul>
+								<li><a href="#">Gadget Finder</a></li>
+								<li><a href="#">Green Tree Express</a></li>
+								<li><a href="#">Green Tree Pro</a></li>
+								<li><a href="#">Holy Cannoli</a></li>
+								<li><a href="#">Wobbler 3.0</a></li>
+								<li><a href="#">Coolkid</a></li>
+							</ul>
+						</div>
+					</div><!-- /cbp-hrsub-inner -->
+				</div><!-- /cbp-hrsub -->
+			</li>
+			<li class="f-right">
+				<a href="#">Freeware</a>
+				<div class="cbp-hrsub">
+					<div class="cbp-hrsub-inner"> 
+						<div>
+							<h4>Utilities</h4>
+							<ul>
+								<li><a href="#">Green Tree Pro</a></li>
+								<li><a href="#">Wobbler 3.0</a></li>
+								<li><a href="#">Coolkid</a></li>
+							</ul>
+							<h4>Education</h4>
+							<ul>
+								<li><a href="#">Learn Thai</a></li>
+								<li><a href="#">Math Genius</a></li>
+								<li><a href="#">Chemokid</a></li>
+							</ul>
+						</div>
+						<div>
+							<h4>Professionals</h4>
+							<ul>
+								<li><a href="#">Success 1.0</a></li>
+								<li><a href="#">Moneymaker</a></li>
+							</ul>
+						</div>
+						<div>
+							<h4>Learning &amp; Games</h4>
+							<ul>
+								<li><a href="#">Catch the Bullet</a></li>
+								<li><a href="#">Snoopydoo</a></li>
+								<li><a href="#">Fallen Angel</a></li>
+								<li><a href="#">Sui Maker</a></li>
+								<li><a href="#">Wave Master</a></li>
+								<li><a href="#">Golf Pro</a></li>
+							</ul>
+						</div>
+					</div><!-- /cbp-hrsub-inner -->
+				</div><!-- /cbp-hrsub -->
+			</li>
+			<li class="f-right">
+				<a href="#contact" class="clickscroll">CONTACT ME</a>
+			</li>
+			<li class="f-right">
+				<a href="#portafolio" class="clickscroll">WORKS</a>
+			</li>
+			<li class="f-right">
+				<a href="#about" class="clickscroll">ABOUT</a>
+			</li>
+			<li class="f-left">
+				<a href="#" class="clickscroll">HOME</a>
+			</li>
+		</ul>
+	</nav>
+	</div>
 	<section id="home" class="">
 
 	</section>
@@ -100,5 +162,10 @@
     <script src="js/main.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src='js/jquery.scrollto.js'></script>
+    <script>
+		$(function() {
+			cbpHorizontalMenu.init();
+		});
+	</script>
 </body>
 </html>
