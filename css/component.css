@@ -16,7 +16,7 @@
 .cbp-hrmenu > ul,
 .cbp-hrmenu .cbp-hrsub-inner {
 	width: 90%;
-	max-width: 1245px;
+	max-width: 1193px;
 	margin: 0 auto;
 	padding: 0 1.875em;
 }
@@ -95,6 +95,10 @@
 }
 
 @media screen and (max-width: 43em) { 
+
+	.f-left, .f-right {
+		float: none;
+	}
 
 	.cbp-hrmenu {
 		font-size: 120%;
