@@ -13,7 +13,7 @@ $(document).ready(function(){
 
 var cbpHorizontalMenu = (function() {
  
-    var $listItems = $( '#cbp-hrmenu > ul > li' ),
+    var $listItems = $( '#cbp-hrmenu > #ul > li' ),
         $menuItems = $listItems.children( 'a' ),
         $body = $( 'body' ),
         current = -1;

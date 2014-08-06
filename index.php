@@ -15,8 +15,22 @@
 <body>
 	<div class="main">
 	<nav id="cbp-hrmenu" class="cbp-hrmenu">
-		<ul>
-			<li class="f-right">
+		<ul class="f-left">
+			<li>
+				<a href="#" class="clickscroll">HOME</a>
+			</li>
+		</ul>
+		<ul id="ul" class="f-right">
+			<li>
+				<a href="#about" class="clickscroll">ABOUT</a>
+			</li>
+			<li>
+				<a href="#portafolio" class="clickscroll">WORKS</a>
+			</li>
+			<li>
+				<a href="#contact" class="clickscroll">CONTACT ME</a>
+			</li>
+			<li>
 				<a href="#">Projects</a>
 				<div class="cbp-hrsub">
 					<div class="cbp-hrsub-inner"> 
@@ -50,7 +64,7 @@
 					</div><!-- /cbp-hrsub-inner -->
 				</div><!-- /cbp-hrsub -->
 			</li>
-			<li class="f-right">
+			<li>
 				<a href="#">Freeware</a>
 				<div class="cbp-hrsub">
 					<div class="cbp-hrsub-inner"> 
@@ -88,18 +102,6 @@
 						</div>
 					</div><!-- /cbp-hrsub-inner -->
 				</div><!-- /cbp-hrsub -->
-			</li>
-			<li class="f-right">
-				<a href="#contact" class="clickscroll">CONTACT ME</a>
-			</li>
-			<li class="f-right">
-				<a href="#portafolio" class="clickscroll">WORKS</a>
-			</li>
-			<li class="f-right">
-				<a href="#about" class="clickscroll">ABOUT</a>
-			</li>
-			<li class="f-left">
-				<a href="#" class="clickscroll">HOME</a>
 			</li>
 		</ul>
 	</nav>
