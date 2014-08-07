@@ -107,6 +107,7 @@ section#home {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
+	color: #E6E6E6;
 	
 }
 
@@ -221,4 +222,12 @@ section#footer .container .footer-right {
 
 section#footer .container .footer-page .footer-page-inner a{
 	color: #E6E6E6;
+}
+
+section#footer .container .footer-page .footer-page-inner .logo {
+	display: inline-block;
+}
+
+section#footer .container .footer-page .footer-page-inner .logo img {
+	width: 30%;
 }
