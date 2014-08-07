@@ -33,40 +33,6 @@
 			<li>
 				<a href="#contact" class="clickscroll">CONTACT ME</a>
 			</li>
-			<!--<li>
-				<a href="#">PROJECTS</a>
-				<div class="cbp-hrsub">
-					<div class="cbp-hrsub-inner"> 
-						<div>
-							<h4>Learning &amp; Games</h4>
-							<ul>
-								<li><a href="#">Catch the Bullet</a></li>
-								<li><a href="#">Snoopydoo</a></li>
-								<li><a href="#">Fallen Angel</a></li>
-								<li><a href="#">Sui Maker</a></li>
-								<li><a href="#">Wave Master</a></li>
-								<li><a href="#">Golf Pro</a></li>
-							</ul>
-							<h4>Utilities</h4>
-							<ul>
-								<li><a href="#">Gadget Finder</a></li>
-								<li><a href="#">Green Tree Express</a></li>
-							</ul>
-						</div>
-						<div>
-							<h4>Entertainment</h4>
-							<ul>
-								<li><a href="#">Gadget Finder</a></li>
-								<li><a href="#">Green Tree Express</a></li>
-								<li><a href="#">Green Tree Pro</a></li>
-								<li><a href="#">Holy Cannoli</a></li>
-								<li><a href="#">Wobbler 3.0</a></li>
-								<li><a href="#">Coolkid</a></li>
-							</ul>
-						</div>
-					</div>
-				</div><
-			</li>-->
 			<li>
 				<a href="#">FREEWARE</a>
 				<div class="cbp-hrsub">
@@ -162,7 +128,36 @@
 	</section>
 	<section id="footer">
 		<div class="container">
-			<h2>FOOTER</h2>
+			<div class="footer-page footer-left">
+				<div class="footer-page-inner">
+					<p>Título</p>
+					<ul>
+						<li>
+							<a href="">opción 1</a>
+						</li>
+						<li>
+							<a href="">opción 1</a>
+						</li>
+						<li>
+							<a href="">opción 1</a>
+						</li>
+						<li>
+							<a href="">opción 1</a>
+						</li>
+						<li>
+							<a href="">opción 1</a>
+						</li>
+						<li>
+							<a href="">opción 1</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="footer-page footer-right">
+				<div class="footer-page-inner ">
+					
+				</div>
+			</div>
 		</div>
 	</section>
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->

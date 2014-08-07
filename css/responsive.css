@@ -8,16 +8,46 @@
         height: 100%;
         padding: 420px 20px 50px 20px;
     }
+
+    /* Footer */
+	section#footer .container .footer-left {
+		width: 100%;
+	}
+
+	section#footer .container .footer-right {
+		width: 100%;
+		margin-top: 30px;
+	}
 }
 
 /* -- Tablets -- */
 @media (min-width: 768px) and (max-width: 991px) {
+
+	/* Footer */
+	/* Footer */
+	section#footer .container .footer-left {
+		width: 35%;
+	}
+
+	section#footer .container .footer-right {
+		vertical-align: top;
+		width: 64.3%;
+	}
 
 }
 
 /* -- Desktops Medium -- */
 @media (min-width: 992px) and (max-width: 1199px) {
 
+	/* Footer */
+	section#footer .container .footer-left {
+		width: 35%;
+	}
+
+	section#footer .container .footer-right {
+		vertical-align: top;
+		width: 64.4%;
+	}
 
 }
 

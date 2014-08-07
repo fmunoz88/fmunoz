@@ -127,8 +127,8 @@
     .cbp-hrmenu {
         font-size: 120%;
         border: none;
-        min-width: 1170px;
         padding: 0;
+        width: 100%;
     }
  
     .cbp-hrmenu > ul,
