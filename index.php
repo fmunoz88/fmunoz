@@ -5,7 +5,7 @@
  	<meta charset="utf-8">
  	<meta name="description" content="">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/responsive.css">
 	<link rel="stylesheet" type="text/css" href="css/component.css" />
@@ -25,13 +25,16 @@
 				<a href="#about" class="clickscroll">ABOUT</a>
 			</li>
 			<li>
+				<a href="#knowledge" class="clickscroll">KOWNLEDGE</a>
+			</li>
+			<li>
 				<a href="#portafolio" class="clickscroll">WORKS</a>
 			</li>
 			<li>
 				<a href="#contact" class="clickscroll">CONTACT ME</a>
 			</li>
-			<li>
-				<a href="#">Projects</a>
+			<!--<li>
+				<a href="#">PROJECTS</a>
 				<div class="cbp-hrsub">
 					<div class="cbp-hrsub-inner"> 
 						<div>
@@ -61,11 +64,11 @@
 								<li><a href="#">Coolkid</a></li>
 							</ul>
 						</div>
-					</div><!-- /cbp-hrsub-inner -->
-				</div><!-- /cbp-hrsub -->
-			</li>
+					</div>
+				</div><
+			</li>-->
 			<li>
-				<a href="#">Freeware</a>
+				<a href="#">FREEWARE</a>
 				<div class="cbp-hrsub">
 					<div class="cbp-hrsub-inner"> 
 						<div>
@@ -107,21 +110,32 @@
 	</nav>
 	</div>
 	<section id="home" class="">
-
+		<div class="fullscreen">
+			<div class="container home-page">
+				<div class="inner-home">
+					<h2>HOME</h2>
+				</div>
+			</div>
+		</div>
 	</section>
 	<section class="separator">
 		<div class="container separator-1">
 			<div class="f-left">
-				<h2>BARRA IZQUIERDA</h2>
+				<h2>LEFT BAR</h2>
 			</div>
 			<div class="f-right">
-				<h2>BARRA DERECHA</h2>
+				<h2>RIGHT BAR</h2>
 			</div>
 		</div>
 	</section>
 	<section id="about">
 		<div class="container">
 			<h2>ABOUT</h2>
+		</div>
+	</section>
+	<section id="knowledge">
+		<div class="container">
+			<h2>KNOWLEDGE</h2>
 		</div>
 	</section>
 	<section id="portafolio">
@@ -133,10 +147,10 @@
 		<div class="container">
 			<div id="separator-2">
 				<div class="f-left">
-					<h2>LOGO IZQUIERDA</h2>
+					<h2>LEFT LOGO</h2>
 				</div>
 				<div class="f-right">
-					<h2>LOGO DERECHA</h2>
+					<h2>RIGHT LOGO</h2>
 				</div>
 			</div>
 		</div>

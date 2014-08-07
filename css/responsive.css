@@ -1,21 +1,29 @@
 /* responsive */
 
-@media only screen and (max-width: 1185px){
+/* -- Phone -- */
+@media (max-width: 767px) {
 
-	#nav-inner, .inner{
-		padding-left: 20px;
-		padding-right: 20px;
-	}
+	/* Home */
+	section#home > .fullscreen > .home-page {
+        height: 100%;
+        padding: 420px 20px 50px 20px;
+    }
 }
 
-@media only screen and (max-width: 1300px){
-	.nav-menu ul.dropdown-menu-1 li {
-		margin-left: -55px;
-	}
+/* -- Tablets -- */
+@media (min-width: 768px) and (max-width: 991px) {
+
 }
 
-@media only screen and (max-width: 760px){
-	.nav-menu {
-		float: none;
-	}
+/* -- Desktops Medium -- */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+
 }
+
+/* -- Desktops Large -- */
+@media (min-width: 1200px) {
+
+}
+
+

@@ -78,58 +78,6 @@ ul, li {
 	padding:0;
 }*/
 
-/* Navigation section */
-
-header#navigation {
-	border-bottom: 1px solid #ccc;
-}
-
-/* LOGO */
-
-.logo {
-	color: #ccc !important;
-}
-
-/* Background nav */
-
-.background-nav {
-	/*background-color: rgba(34, 34, 34, 0.4) !important;*/
-}
-
-/* nav menu right */
-
-/* Enable hover menu */
-/*
-.nav-menu .dropdown:hover .dropdown-menu {
-	display: block;
-}
-
-.nav-menu a {
-	color: #ccc !important;
-}
-
-.nav-menu ul li:hover{
-	background-color: rgba(34, 34, 34, 0.3);
-	color: red !important;
-	-webkit-transition: all 0.5s;
-	-moz-transition: all 0.5s;
-	transition: all 0.5s;
-}
-
-.nav-menu ul li:hover > a{
-	background-color: rgba(34, 34, 34, 0.3);
-	color: red !important;
-	-webkit-transition: all 0.5s;
-	-moz-transition: all 0.5s;
-	transition: all 0.5s;
-}*/
-
-/* dropdown */
-/*
-nav.nav-menu li.open {
-	background-color: transparent;
-}*/
-
 /* Separator barra */
 
 section.separator {
@@ -138,11 +86,11 @@ section.separator {
 	color: #E6E6E6;
 }
 
-section.separator .container {
+section.separator > .container {
 	height: 100%;
 }
 
-section.separator .container h2 {
+section.separator > .container h2 {
 	margin: 0;
 	line-height: 146px;
 }
@@ -153,18 +101,35 @@ section.separator .container h2 {
 
 /* Home */
 
-#home {
+section#home {
 	z-index: 6;
-    top:0;
-    left:0;
-    height:100%;
-    width:100%;
-	background: url(../images/back-1.jpg) no-repeat; 
+	height: 100%;
+	min-height: 300px;
+	background: url(../images/back-1.jpg) no-repeat;
 	background-position: 0px 100%;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
+	
+}
+
+section#home .fullscreen {
+	/*background: rgba(34, 34, 34, .5) !important;*/
+	width: 100%;
+	height: 100%;
+	left:0;
+	top:0;
+}
+
+section#home .fullscreen .home-page {
+	height: 100%;
+	padding: 100px 0px 50px 0px;
+}
+
+section#home .fullscreen .home-page .inner-home{
+	border: 1px solid red;
+	height: 100%;
 }
 
 /*
@@ -184,6 +149,8 @@ section.separator .container h2 {
 /* About */
 
 section#about {
+	color: #E6E6E6;
+	background: #3498db;
 	margin:0;
 	width: 100%;
 	padding:25px 0;
@@ -194,9 +161,21 @@ section#about .container {
 	height: 600px;
 }
 
+/* knowledge */
+section#knowledge {
+	margin:0;
+	width: 100%;
+	padding:25px 0;
+}
+
+section#knowledge .container {
+	min-height: 600px;
+}
+
 /* Works */
 
 section#portafolio {
+	color: #E6E6E6;
 	background: #e95b4d;
 	margin:0;
 	width: 100%;
