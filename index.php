@@ -4,7 +4,7 @@
 	<title>Prueba Diseño</title>
  	<meta charset="utf-8">
  	<meta name="description" content="">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/responsive.css">
@@ -160,7 +160,7 @@
 			<div class="footer-page footer-right">
 				<div class="footer-page-inner ">
 					<div class="logo">
-						<img src="images/HTML5-Logo.png">
+						<img src="images/HTML5-Logo.png" />
 					</div>
 				</div>
 			</div>
