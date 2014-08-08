@@ -9,18 +9,35 @@
 $.scrollTo = $.fn.scrollTo = function(x, y, options){
     if (!(this instanceof $)) return $.fn.scrollTo.apply($('html, body'), arguments);
 
-    options = $.extend({}, {
-        gap: {
-            x: 0,
-            y: -50
-        },
-        animation: {
-            easing: 'swing',
-            duration: 600,
-            complete: $.noop,
-            step: $.noop
-        }
-    }, options);
+    if($(window).width() <= 767){
+        options = $.extend({}, {
+            gap: {
+                x: 0,
+                y: 0
+            },
+            animation: {
+                easing: 'swing',
+                duration: 600,
+                complete: $.noop,
+                step: $.noop
+            }
+        }, options);
+    } else {
+
+        options = $.extend({}, {
+            gap: {
+                x: 0,
+                y: -50
+            },
+            animation: {
+                easing: 'swing',
+                duration: 600,
+                complete: $.noop,
+                step: $.noop
+            }
+        }, options);
+
+    }
 
     return this.each(function(){
         var elem = $(this);
