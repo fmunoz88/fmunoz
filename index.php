@@ -158,9 +158,10 @@
 				</div>
 			</div>
 			<div class="footer-page footer-right">
+				<h2>FOOTER</h2>
 				<div class="footer-page-inner ">
 					<div class="logo">
-						<img src="images/HTML5-Logo.png" />
+						<img src="images/HTML5-Logo.png" alt="logo" />
 					</div>
 				</div>
 			</div>
