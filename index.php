@@ -14,8 +14,12 @@
 </head>
 <body>
 	<div class="main">
+	<div class="nav-movil">
+		<p class="f-left">MENÚ</p>
+		<p class="f-right button glyphicon glyphicon-align-justify"></p>
+	</div>
 	<nav id="cbp-hrmenu" class="cbp-hrmenu">
-		<ul class="f-left">
+		<ul class="home f-left">
 			<li>
 				<a href="#" class="clickscroll">HOME</a>
 			</li>
@@ -178,6 +182,7 @@
     <script>
 		$(function() {
 			cbpHorizontalMenu.init();
+			menuClickMovil.init();
 		});
 	</script>
 </body>

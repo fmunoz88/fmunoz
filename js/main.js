@@ -8,6 +8,25 @@ $(document).ready(function(){
         evn.preventDefault();
         $('html,body').scrollTo(this.hash, this.hash); 
     });
+
+   /* $(".click-movil").click(function(){
+
+
+        $(".hidden-movil").each(function() {
+            displaying = $(this).css("display");
+            if(displaying == "block") {
+              $(this).fadeOut('slow',function() {
+               $(this).css("display","none");
+              });
+            } else {
+              $(this).fadeIn('slow',function() {
+                $(this).css("display","block");
+              });
+            }
+      });
+
+
+    });*/
    
 });
 
@@ -48,6 +67,50 @@ var cbpHorizontalMenu = (function() {
  
     function close( event ) {
         $listItems.eq( current ).removeClass( 'cbp-hropen' );
+        current = -1;
+    }
+ 
+    return { init : init };
+ 
+})();
+
+/* Click menú movil */
+var menuClickMovil = (function() {
+ 
+    var $listItems = $( '.main > .nav-movil' ),
+        $menuClick = $listItems.children( 'p.button' ),
+        $body = $( 'body' ),
+        current = -1;
+ 
+    function init() {
+        $menuClick.on( 'click', open );
+        $listItems.on( 'click', function( event ) { event.stopPropagation(); } );
+    }
+ 
+    function open( event ) {
+ 
+        if( current !== -1 ) {
+            $("nav").removeClass( 'visible-movil' );
+        }
+
+        var idx = -1;
+ 
+        if( current !== idx ) {
+            $("nav").removeClass( 'visible-movil' );
+            current = -1;
+        }
+        else {
+            $("nav").addClass( 'visible-movil' );
+            current = 1;
+            $body.off( 'click' ).on( 'click', close );
+        }
+ 
+        return false;
+ 
+    }
+ 
+    function close( event ) {
+        $("nav").removeClass( 'visible-movil' );
         current = -1;
     }
  

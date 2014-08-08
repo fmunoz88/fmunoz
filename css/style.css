@@ -95,6 +95,12 @@ section.separator > .container h2 {
 	line-height: 146px;
 }
 
+/* button nav movil*/
+
+.main > .nav-movil {
+	display: none;
+}
+
 /* Home */
 
 section#home {
@@ -228,6 +234,6 @@ section#footer .container .footer-page .footer-page-inner .logo {
 	display: inline-block;
 }
 
-section#footer .container .footer-page .footer-page-inner .logo img {
+section#footer .container .footer-right img {
 	width: 30%;
 }
