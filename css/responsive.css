@@ -4,6 +4,10 @@
 @media (max-width: 767px) {
 
 	/* Home */
+	section#home {
+		height: 600px;
+	}
+
 	section#home > .fullscreen > .home-page {
         height: 100%;
         padding: 100px 20px 50px 20px;
@@ -23,7 +27,11 @@
 /* -- Tablets -- */
 @media (min-width: 768px) and (max-width: 991px) {
 
-	/* Footer */
+	/* Home */
+	section#home {
+		height: 700px;
+	}
+
 	/* Footer */
 	section#footer .container .footer-left {
 		width: 35%;
