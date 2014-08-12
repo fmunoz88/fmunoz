@@ -1,8 +1,9 @@
 .main {
     width: 100%;
-    border-bottom: 4px solid #47a3da;
-    position: fixed;
+    border-top: 4px solid #47a3da;
+    position: absolute;
     background: white;
+    bottom: 0;
 }
 
 .cbp-hrmenu {

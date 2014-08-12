@@ -101,6 +101,17 @@ section.separator > .container h2 {
 	display: none;
 }
 
+/* Menu fixed */
+
+.fixed-nav {
+    position: fixed; 
+    top: 0; 
+    height: 52px;
+    border-top: 0px !important;
+    border-bottom: 4px solid #47a3da;
+    width: 100%;
+}
+
 /* Home */
 
 section#home {

@@ -12,72 +12,74 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
-	<div class="main">
-		<div class="nav-movil">
-			<p class="f-left">MENÚ</p>
-			<p class="f-right button glyphicon glyphicon-align-justify"></p>
+	<section id="nav">
+		<div class="main">
+			<div class="nav-movil">
+				<p class="f-left">MENÚ</p>
+				<p class="f-right button glyphicon glyphicon-align-justify"></p>
+			</div>
+			<nav id="cbp-hrmenu" class="cbp-hrmenu">
+				<ul class="home f-left">
+					<li>
+						<a href="#" class="clickscroll">HOME</a>
+					</li>
+				</ul>
+				<ul id="ul" class="f-right">
+					<li>
+						<a href="#about" class="clickscroll">ABOUT</a>
+					</li>
+					<li>
+						<a href="#knowledge" class="clickscroll">KOWNLEDGE</a>
+					</li>
+					<li>
+						<a href="#portafolio" class="clickscroll">WORKS</a>
+					</li>
+					<li>
+						<a href="#contact" class="clickscroll">CONTACT ME</a>
+					</li>
+					<li>
+						<a href="#">FREEWARE</a>
+						<div class="cbp-hrsub">
+							<div class="cbp-hrsub-inner"> 
+								<div>
+									<h4>Utilities</h4>
+									<ul>
+										<li><a href="#">Green Tree Pro</a></li>
+										<li><a href="#">Wobbler 3.0</a></li>
+										<li><a href="#">Coolkid</a></li>
+									</ul>
+									<h4>Education</h4>
+									<ul>
+										<li><a href="#">Learn Thai</a></li>
+										<li><a href="#">Math Genius</a></li>
+										<li><a href="#">Chemokid</a></li>
+									</ul>
+								</div>
+								<div>
+									<h4>Professionals</h4>
+									<ul>
+										<li><a href="#">Success 1.0</a></li>
+										<li><a href="#">Moneymaker</a></li>
+									</ul>
+								</div>
+								<div>
+									<h4>Learning &amp; Games</h4>
+									<ul>
+										<li><a href="#">Catch the Bullet</a></li>
+										<li><a href="#">Snoopydoo</a></li>
+										<li><a href="#">Fallen Angel</a></li>
+										<li><a href="#">Sui Maker</a></li>
+										<li><a href="#">Wave Master</a></li>
+										<li><a href="#">Golf Pro</a></li>
+									</ul>
+								</div>
+							</div><!-- /cbp-hrsub-inner -->
+						</div><!-- /cbp-hrsub -->
+					</li>
+				</ul>
+			</nav>
 		</div>
-		<nav id="cbp-hrmenu" class="cbp-hrmenu">
-			<ul class="home f-left">
-				<li>
-					<a href="#" class="clickscroll">HOME</a>
-				</li>
-			</ul>
-			<ul id="ul" class="f-right">
-				<li>
-					<a href="#about" class="clickscroll">ABOUT</a>
-				</li>
-				<li>
-					<a href="#knowledge" class="clickscroll">KOWNLEDGE</a>
-				</li>
-				<li>
-					<a href="#portafolio" class="clickscroll">WORKS</a>
-				</li>
-				<li>
-					<a href="#contact" class="clickscroll">CONTACT ME</a>
-				</li>
-				<li>
-					<a href="#">FREEWARE</a>
-					<div class="cbp-hrsub">
-						<div class="cbp-hrsub-inner"> 
-							<div>
-								<h4>Utilities</h4>
-								<ul>
-									<li><a href="#">Green Tree Pro</a></li>
-									<li><a href="#">Wobbler 3.0</a></li>
-									<li><a href="#">Coolkid</a></li>
-								</ul>
-								<h4>Education</h4>
-								<ul>
-									<li><a href="#">Learn Thai</a></li>
-									<li><a href="#">Math Genius</a></li>
-									<li><a href="#">Chemokid</a></li>
-								</ul>
-							</div>
-							<div>
-								<h4>Professionals</h4>
-								<ul>
-									<li><a href="#">Success 1.0</a></li>
-									<li><a href="#">Moneymaker</a></li>
-								</ul>
-							</div>
-							<div>
-								<h4>Learning &amp; Games</h4>
-								<ul>
-									<li><a href="#">Catch the Bullet</a></li>
-									<li><a href="#">Snoopydoo</a></li>
-									<li><a href="#">Fallen Angel</a></li>
-									<li><a href="#">Sui Maker</a></li>
-									<li><a href="#">Wave Master</a></li>
-									<li><a href="#">Golf Pro</a></li>
-								</ul>
-							</div>
-						</div><!-- /cbp-hrsub-inner -->
-					</div><!-- /cbp-hrsub -->
-				</li>
-			</ul>
-		</nav>
-	</div>
+	</section>
 	<section id="home" class="">
 		<div class="fullscreen">
 			<div class="container home-page">

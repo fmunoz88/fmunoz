@@ -98,3 +98,17 @@ var menuClickMovil = (function() {
     return { init : init };
  
 })();
+
+/* Menú fixed bottom */
+
+$(document).ready(function(){
+   $(window).bind('scroll', function() {
+   var navHeight = $( window ).height() - 70;
+         if ($(window).scrollTop() > navHeight) {
+             $('section#nav').addClass('fixed-nav');
+         }
+         else {
+             $('section#nav').removeClass('fixed-nav');
+         }
+    });
+});
