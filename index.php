@@ -15,13 +15,11 @@
 <body>
 	<nav>
 		<div id="wrapper-nav" class="">
-			<div class="nav-menu f-left">
-				<ul>
+			<div class="nav-menu">
+				<ul class="f-left">
 					<li><a href="#" class="clickscroll">HOME</a></li>
 				</ul>
-			</div>
-			<div class="nav-menu f-right">
-				<ul>
+				<ul class="f-right">
 					<li>
 						<a href="#about" class="clickscroll">ABOUT</a>
 					</li>

@@ -13,6 +13,26 @@
         padding: 100px 40px 50px 40px !important;
     }
 
+    /* Nav responsivo movil */
+    nav {
+    	padding: 0px 0px !important;
+    }
+
+	nav #wrapper-nav {
+    	border-bottom: 4px solid #47a3da;
+    	background: white;
+    }
+    nav #wrapper-nav .nav-menu ul {
+	    float: none !important;
+	    width: 100%;
+	    margin: 0px !important;
+	}
+
+    nav #wrapper-nav .nav-menu ul li {
+	    display: block !important;
+
+	}
+
     /* Footer */
 	section#footer .container .footer-left {
 		width: 100%;
@@ -36,7 +56,6 @@
 		border-bottom: 4px solid #47a3da;
 		font-size: 90% !important;
 		height: 50px !important;
-		padding: 0 40px !important;
 	}
 
 	nav #wrapper-nav .nav-menu ul li a {

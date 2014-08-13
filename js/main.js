@@ -103,7 +103,7 @@ var menuClickMovil = (function() {
 
 $(window).bind('scroll', function() {
 
-    if($(window).width() > 991){
+    if($(window).width() > 976){
     
         var navHeight = $( window ).height() - 70;
 
@@ -117,7 +117,7 @@ $(window).bind('scroll', function() {
     }else{
 
         $('nav').removeClass('fixed-nav');
-        
+
     }
 
 });
