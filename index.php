@@ -8,10 +8,40 @@
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/responsive.css">
 	<link rel="stylesheet" type="text/css" href="css/component.css" />
+	<link rel="stylesheet" type="text/css" href="css/menunav.css" />
 	<!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
+	<nav>
+		<div id="wrapper-nav" class="">
+			<div class="nav-menu f-left">
+				<ul>
+					<li><a href="#" class="clickscroll">HOME</a></li>
+				</ul>
+			</div>
+			<div class="nav-menu f-right">
+				<ul>
+					<li>
+						<a href="#about" class="clickscroll">ABOUT</a>
+					</li>
+					<li>
+						<a href="#knowledge" class="clickscroll">KOWNLEDGE</a>
+					</li>
+					<li>
+						<a href="#portafolio" class="clickscroll">WORKS</a>
+					</li>
+					<li>
+						<a href="#contact" class="clickscroll">CONTACT ME</a>
+					</li>
+					<li>
+						<a href="#" class="clickscroll">MENÚ</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<!--
 	<div class="main">
 		<div class="nav-movil">
 			<p class="f-left">MENÚ</p>
@@ -72,12 +102,13 @@
 									<li><a href="#">Golf Pro</a></li>
 								</ul>
 							</div>
-						</div><!-- /cbp-hrsub-inner -->
-					</div><!-- /cbp-hrsub -->
+						</div>
+					</div>
 				</li>
 			</ul>
 		</nav>
 	</div>
+	-->
 	<section id="home" class="">
 		<div class="fullscreen">
 			<div class="container home-page">

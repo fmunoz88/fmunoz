@@ -1,0 +1,54 @@
+nav {
+	width: 100%;
+    border-top: 4px solid #47a3da;
+    position: absolute;
+    background: white;
+    bottom: 0;
+    height: 67px;
+    font-size: 15px;
+}
+
+nav #wrapper-nav {
+    max-width: 1170px;
+    margin: 0 auto;
+
+}
+
+nav #wrapper-nav .nav-menu ul {
+    margin-bottom: 0;
+}
+
+nav #wrapper-nav .nav-menu ul li {
+    display: inline-block;
+
+}
+
+nav #wrapper-nav .nav-menu ul li a {
+    padding: 0px 30px;
+    display: block;
+    line-height: 64px;
+    color: #999;
+}
+
+nav #wrapper-nav .nav-menu ul li a:hover {
+    color: white;
+    background: #47a3da;
+}
+
+/* Menú Fixed scroll */
+
+.fixed-nav {
+    position: fixed;  
+    border-top: 0;
+    top: 0;
+    border-bottom: 4px solid #47a3da;
+    width: 100%;
+}
+
+.fixed-subnav {
+	top: -378px;
+}
+
+.border-nav {
+	border-bottom: 1px solid #ecf0f1;  
+}

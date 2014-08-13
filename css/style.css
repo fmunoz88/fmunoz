@@ -32,6 +32,7 @@ a { text-decoration:none; }
 a:link { text-decoration:none; }
 a:visited { text-decoration:none; }
 a:active, a:focus { outline: none !important; }
+a:hover { text-decoration: none !important; }
 
 ul, li {
 	list-style: none;
@@ -101,24 +102,6 @@ section.separator > .container h2 {
 	display: none;
 }
 
-/* Menú Fixed scroll */
-/*
-.fixed-nav {
-    position: fixed;  
-    height: 66px;
-    border-top: 0px !important;
-    border-bottom: 4px solid #47a3da;
-    width: 100%;
-}
-
-.fixed-subnav {
-	top: -378px;
-}
-
-.border-nav {
-	border-bottom: 1px solid #ecf0f1;  
-}*/
-
 /* Home */
 
 section#home {
@@ -145,7 +128,7 @@ section#home .fullscreen {
 
 section#home .fullscreen .home-page {
 	height: 100%;
-	padding: 100px 0px 50px 0px;
+	padding: 50px 0px 120px 0px;
 }
 
 section#home .fullscreen .home-page .inner-home{
