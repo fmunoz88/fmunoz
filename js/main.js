@@ -98,3 +98,20 @@ var menuClickMovil = (function() {
     return { init : init };
  
 })();
+/*
+$(window).bind('scroll', function() {
+    var navHeight = $( window ).height() - 70;
+
+    if (!($(window).scrollTop() > navHeight)) {
+        $('section#nav').removeClass('fixed-nav');
+        $('div#navsub').addClass('fixed-subnav');
+        $('div#navsub').removeClass('border-nav');
+    }
+    else {
+        $('section#nav').addClass('fixed-nav');
+        $('div#navsub').removeClass('fixed-subnav');
+        $('div#navsub').addClass('border-nav');
+    }
+    
+});
+*/
