@@ -104,12 +104,19 @@ section.separator > .container h2 {
 /* Menu fixed */
 
 .fixed-nav {
-    position: fixed; 
-    top: 0; 
-    height: 52px;
+    position: fixed;  
+    height: 66px;
     border-top: 0px !important;
     border-bottom: 4px solid #47a3da;
     width: 100%;
+}
+
+.fixed-subnav {
+	top: -378px;
+}
+
+.border-nav {
+	border-bottom: 1px solid #ecf0f1;  
 }
 
 /* Home */
@@ -138,7 +145,7 @@ section#home .fullscreen {
 
 section#home .fullscreen .home-page {
 	height: 100%;
-	padding: 100px 0px 50px 0px;
+	padding: 30px 0px 100px 0px;
 }
 
 section#home .fullscreen .home-page .inner-home{

@@ -39,7 +39,7 @@
 					</li>
 					<li>
 						<a href="#">FREEWARE</a>
-						<div class="cbp-hrsub">
+						<div id="navsub" class="cbp-hrsub fixed-subnav">
 							<div class="cbp-hrsub-inner"> 
 								<div>
 									<h4>Utilities</h4>

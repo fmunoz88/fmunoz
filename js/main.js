@@ -102,13 +102,30 @@ var menuClickMovil = (function() {
 /* Menú fixed bottom */
 
 $(document).ready(function(){
-   $(window).bind('scroll', function() {
-   var navHeight = $( window ).height() - 70;
-         if ($(window).scrollTop() > navHeight) {
-             $('section#nav').addClass('fixed-nav');
-         }
-         else {
-             $('section#nav').removeClass('fixed-nav');
-         }
-    });
+
+    if($(window).width() > 992){
+
+        $(window).bind('scroll', function() {
+            var navHeight = $( window ).height() - 70;
+
+            
+
+            if (!($(window).scrollTop() > navHeight)) {
+                $('section#nav').removeClass('fixed-nav');
+                $('div#navsub').addClass('fixed-subnav');
+                $('div#navsub').removeClass('border-nav');
+            }
+            else {
+                $('section#nav').addClass('fixed-nav');
+                $('div#navsub').removeClass('fixed-subnav');
+                $('div#navsub').addClass('border-nav');
+            }
+
+            
+        });
+
+    }else if ($(window).width() <= 991) {
+        
+        $('section#nav').removeClass('fixed-nav');
+    }
 });

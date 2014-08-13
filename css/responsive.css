@@ -60,7 +60,13 @@
 }
 
 /* -- Desktops Large -- */
-@media (min-width: 1200px) {
+@media (min-width: 992px) {
+
+	.main {
+		border-top: 4px solid #47a3da;
+		bottom: 0;
+		top: inherit;
+	}
 
 }
 
