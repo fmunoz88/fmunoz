@@ -37,6 +37,12 @@ nav #wrapper-nav .nav-menu ul li a:hover {
     background: #47a3da;
 }
 
+/* Nav Click movil */
+
+nav #wrapper-nav .nav-menu .nav-click {
+    display: none;
+}
+
 /* Menú Fixed scroll */
 
 .fixed-nav {

@@ -11,55 +11,11 @@ $(document).ready(function(){
    
 });
 
-var cbpHorizontalMenu = (function() {
- 
-    var $listItems = $( '#cbp-hrmenu > #ul > li' ),
-        $menuItems = $listItems.children( 'a' ),
-        $body = $( 'body' ),
-        current = -1;
- 
-    function init() {
-        $menuItems.on( 'click', open );
-        $listItems.on( 'click', function( event ) { event.stopPropagation(); } );
-    }
- 
-    function open( event ) {
- 
-        if( current !== -1 ) {
-            $listItems.eq( current ).removeClass( 'cbp-hropen' );
-        }
- 
-        var $item = $( event.currentTarget ).parent( 'li' ),
-            idx = $item.index();
- 
-        if( current === idx ) {
-            $item.removeClass( 'cbp-hropen' );
-            current = -1;
-        }
-        else {
-            $item.addClass( 'cbp-hropen' );
-            current = idx;
-            $body.off( 'click' ).on( 'click', close );
-        }
- 
-        return false;
- 
-    }
- 
-    function close( event ) {
-        $listItems.eq( current ).removeClass( 'cbp-hropen' );
-        current = -1;
-    }
- 
-    return { init : init };
- 
-})();
-
 /* Click menú movil */
 var menuClickMovil = (function() {
  
-    var $listItems = $( '.main > .nav-movil' ),
-        $menuClick = $listItems.children( 'p.button' ),
+    var $listItems = $( '.nav-click > ul' ),
+        $menuClick = $listItems.children( 'li' ),
         $body = $( 'body' ),
         current = -1;
  
@@ -71,18 +27,19 @@ var menuClickMovil = (function() {
     function open( event ) {
  
         if( current !== -1 ) {
-            $("nav").removeClass( 'visible-movil' );
+            $("nav #wrapper-nav .nav-menu #nav-sub").removeClass( 'nav-open' );
         }
 
         var idx = -1;
  
         if( current !== idx ) {
-            $("nav").removeClass( 'visible-movil' );
+            $("nav #wrapper-nav .nav-menu #nav-sub").removeClass( 'nav-open' );
             current = -1;
         }
         else {
-            $("nav").addClass( 'visible-movil' );
+            $("nav #wrapper-nav .nav-menu #nav-sub").addClass( 'nav-open' );
             current = 1;
+            idx = 2;
             $body.off( 'click' ).on( 'click', close );
         }
  
@@ -91,7 +48,7 @@ var menuClickMovil = (function() {
     }
  
     function close( event ) {
-        $("nav").removeClass( 'visible-movil' );
+        $("nav #wrapper-nav .nav-menu #nav-sub").removeClass( 'nav-open' );
         current = -1;
     }
  

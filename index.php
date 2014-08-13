@@ -7,7 +7,6 @@
     <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/responsive.css">
-	<link rel="stylesheet" type="text/css" href="css/component.css" />
 	<link rel="stylesheet" type="text/css" href="css/menunav.css" />
 	<!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -16,26 +15,33 @@
 	<nav>
 		<div id="wrapper-nav" class="">
 			<div class="nav-menu">
-				<ul class="f-left">
-					<li><a href="#" class="clickscroll">HOME</a></li>
-				</ul>
-				<ul class="f-right">
-					<li>
-						<a href="#about" class="clickscroll">ABOUT</a>
-					</li>
-					<li>
-						<a href="#knowledge" class="clickscroll">KOWNLEDGE</a>
-					</li>
-					<li>
-						<a href="#portafolio" class="clickscroll">WORKS</a>
-					</li>
-					<li>
-						<a href="#contact" class="clickscroll">CONTACT ME</a>
-					</li>
-					<li>
-						<a href="#" class="clickscroll">MENÚ</a>
-					</li>
-				</ul>
+				<div class="nav-click">
+					<ul>
+						<li class="border-none-top"><a href="">OPEN</a></li>
+					</ul>
+				</div>
+				<div id="nav-sub" class="nav-sub">
+					<ul class="f-left">
+						<li><a href="#" class="clickscroll">HOME</a></li>
+					</ul>
+					<ul class="f-right">
+						<li>
+							<a href="#about" class="clickscroll">ABOUT</a>
+						</li>
+						<li>
+							<a href="#knowledge" class="clickscroll">KOWNLEDGE</a>
+						</li>
+						<li>
+							<a href="#portafolio" class="clickscroll">WORKS</a>
+						</li>
+						<li>
+							<a href="#contact" class="clickscroll">CONTACT ME</a>
+						</li>
+						<li class="border-none-bottom ">
+							<a href="#" class="clickscroll">MENÚ</a>
+						</li>
+					</ul>
+				</div>
 			</div>
 		</div>
 	</nav>
@@ -142,7 +148,6 @@
     <script src='js/jquery.scrollto.js'></script>
     <script>
 		$(function() {
-			cbpHorizontalMenu.init();
 			menuClickMovil.init();
 		});
 	</script>

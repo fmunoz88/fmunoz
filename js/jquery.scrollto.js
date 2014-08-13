@@ -9,7 +9,7 @@
 $.scrollTo = $.fn.scrollTo = function(x, y, options){
     if (!(this instanceof $)) return $.fn.scrollTo.apply($('html, body'), arguments);
 
-    if($(window).width() <= 767){
+    if($(window).width() <= 991) {
         options = $.extend({}, {
             gap: {
                 x: 0,
@@ -22,7 +22,8 @@ $.scrollTo = $.fn.scrollTo = function(x, y, options){
                 step: $.noop
             }
         }, options);
-    } else {
+        
+    }  else {
 
         options = $.extend({}, {
             gap: {

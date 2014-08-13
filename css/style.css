@@ -40,6 +40,12 @@ ul, li {
 	padding: 0px;
 }
 
+/* li sin border */
+
+.border-none-top { border-top: none !important; }
+.border-none-bottom { border-bottom: none !important; }
+.border-none-left { border-left: none !important; }
+.border-none-right { border-right: none !important; }
 
 /* Positions and Floats */
 

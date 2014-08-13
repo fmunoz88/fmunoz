@@ -30,7 +30,21 @@
 
     nav #wrapper-nav .nav-menu ul li {
 	    display: block !important;
+	    border-top: 1px solid #ccc;
 
+	}
+
+	/* Nav Click open */
+	nav #wrapper-nav .nav-menu .nav-click {
+    	display: block !important;
+	}
+
+	nav #wrapper-nav .nav-menu .nav-sub {
+    	display: none;
+	}
+
+	.nav-open {
+		display: block !important;
 	}
 
     /* Footer */
