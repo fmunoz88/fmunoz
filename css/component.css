@@ -1,6 +1,7 @@
 .main {
     width: 100%;
-    position: absolute;
+    border-bottom: 4px solid #47a3da;
+    position: fixed;
     background: white;
 }
 
@@ -32,7 +33,7 @@
  
 .cbp-hrmenu > ul > li > a {
     font-weight: 700;
-    padding: 1.5em 2em;
+    padding: 1em 2em;
     color: #999;
     display: inline-block;
 }
@@ -102,37 +103,20 @@
  
 /* Examples for media queries */
 
-@media screen and (max-width: 1033px){
-
-    .fixed-nav {
-        height: 52px;
-
-    }
+@media screen and (max-width: 65em){
 
     .cbp-hrmenu > ul > li > a {
         padding: 1em 1em;
     }
 
-
 }
  
 @media (min-width: 768px) and (max-width: 991px) {
-
+ 
     .cbp-hrmenu {
         font-size: 80%;
     }
-
-    .main {
-        top: 0;
-        bottom: inherit;
-        border-bottom: 4px solid #47a3da;
-    }
  
-    .fixed-nav {
-        height: 45px;
-        position: fixed;
-    }
-
 }
  
 @media (max-width: 767px) {
@@ -140,8 +124,6 @@
     .main {
         position: absolute;
         border: none;
-        top: 0;
-        bottom: inherit;
     }
 
     .cbp-hrmenu {
