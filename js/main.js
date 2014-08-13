@@ -99,32 +99,25 @@ var menuClickMovil = (function() {
  
 })();
 
-$(window).bind('scroll', function() {
-    var navHeight = $( window ).height() - 70;
+/* Función que al mover el scroll reconoce el width y si es menor a 991 no acta la clase de fixed-nav */
 
-    if ($(window).scrollTop() > navHeight) {
-        $('nav').addClass('fixed-nav');
-    }
-    else {
+$(window).bind('scroll', function() {
+
+    if($(window).width() > 991){
+    
+        var navHeight = $( window ).height() - 70;
+
+        if ($(window).scrollTop() > navHeight) {
+            $('nav').addClass('fixed-nav');
+        }
+        else {
+            $('nav').removeClass('fixed-nav');
+        }
+        
+    }else{
+
         $('nav').removeClass('fixed-nav');
+        
     }
-    
-});
 
-/*
-$(window).bind('scroll', function() {
-    var navHeight = $( window ).height() - 70;
-
-    if (!($(window).scrollTop() > navHeight)) {
-        $('section#nav').removeClass('fixed-nav');
-        $('div#navsub').addClass('fixed-subnav');
-        $('div#navsub').removeClass('border-nav');
-    }
-    else {
-        $('section#nav').addClass('fixed-nav');
-        $('div#navsub').removeClass('fixed-subnav');
-        $('div#navsub').addClass('border-nav');
-    }
-    
 });
-*/

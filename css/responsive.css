@@ -5,12 +5,12 @@
 
 	/* Home */
 	section#home {
-		height: 600px;
+		height: 600px !important;
 	}
 
 	section#home > .fullscreen > .home-page {
         height: 100%;
-        padding: 100px 20px 50px 20px;
+        padding: 100px 40px 50px 40px !important;
     }
 
     /* Footer */
@@ -25,11 +25,33 @@
 }
 
 /* -- Tablets -- */
-@media (min-width: 768px) and (max-width: 991px) {
+/* @media (min-width: 768px) and (max-width: 991px) { */
+@media (max-width: 991px) {
+
+	/* Nav */
+	nav {
+		top: 0 !important;
+		bottom: inherit;
+		border-top: none !important;
+		border-bottom: 4px solid #47a3da;
+		font-size: 90% !important;
+		height: 50px !important;
+		padding: 0 40px !important;
+	}
+
+	nav #wrapper-nav .nav-menu ul li a {
+	    padding: 0px 20px !important;
+	    line-height: 50px !important;
+	}
 
 	/* Home */
 	section#home {
 		height: 700px;
+	}
+
+	section#home .fullscreen .home-page {
+		height: 100%;
+		padding: 80px 0px 40px 0px;
 	}
 
 	/* Footer */
@@ -45,7 +67,7 @@
 }
 
 /* -- Desktops Medium -- */
-@media (min-width: 992px) and (max-width: 1199px) {
+@media (max-width: 1199px) {
 
 	/* Footer */
 	section#footer .container .footer-left {
