@@ -1,23 +1,21 @@
 nav {
-	width: 100%;
-    border-top: 4px solid #47a3da;
-    position: absolute;
+    width: 100%;
     background: white;
+    border-top: 4px solid #47a3da;
     bottom: 0;
-    height: 67px;
     font-size: 15px;
+    height: 67px;
+    position: absolute;
 }
 
 nav #wrapper-nav {
-    max-width: 1170px;
     margin: 0 auto;
+    max-width: 1170px;
 
 }
 
 nav #wrapper-nav .nav-menu ul {
     margin-bottom: 0;
-    margin-left: 30px;
-    margin-right: 30px; 
 }
 
 nav #wrapper-nav .nav-menu ul li {
@@ -26,10 +24,10 @@ nav #wrapper-nav .nav-menu ul li {
 }
 
 nav #wrapper-nav .nav-menu ul li a {
-    padding: 0px 30px;
+    color: #999;
     display: block;
     line-height: 64px;
-    color: #999;
+    padding: 0px 30px;
 }
 
 nav #wrapper-nav .nav-menu ul li a:hover {
@@ -46,10 +44,10 @@ nav #wrapper-nav .nav-menu .nav-click {
 /* Menú Fixed scroll */
 
 .fixed-nav {
-    position: fixed;  
-    border-top: 0;
-    top: 0;
     border-bottom: 4px solid #47a3da;
+    border-top: 0;
+    position: fixed;  
+    top: 0;
     width: 100%;
 }
 

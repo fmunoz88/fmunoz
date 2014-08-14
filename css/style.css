@@ -89,8 +89,8 @@ ul, li {
 
 section.separator {
 	background: #2E2E2E;
-	min-height: 150px;
 	color: #E6E6E6;
+	min-height: 150px;
 }
 
 section.separator > .container {
@@ -111,25 +111,25 @@ section.separator > .container h2 {
 /* Home */
 
 section#home {
-	z-index: 6;
-	height: 100%;
-	min-height: 300px;
-	background: url(../images/back-1.jpg) no-repeat;
-	background-position: 0px 100%;
-	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
+	-webkit-background-size: cover;
+	background-position: 0px 100%;
 	background-size: cover;
+	background: url(../images/back-1.jpg) no-repeat;
 	color: #E6E6E6;
+	height: 100%;
+	min-height: 300px;
+	z-index: 6;
 	
 }
 
 section#home .fullscreen {
 	/*background: rgba(34, 34, 34, .5) !important;*/
-	width: 100%;
 	height: 100%;
 	left:0;
 	top:0;
+	width: 100%;
 }
 
 section#home .fullscreen .home-page {
@@ -147,11 +147,11 @@ section#home .fullscreen .home-page .inner-home{
 /* About */
 
 section#about {
-	color: #E6E6E6;
 	background: #47a3da;
+	color: #E6E6E6;
 	margin:0;
-	width: 100%;
 	padding:25px 0;
+	width: 100%;
 }
 
 section#about .container {
@@ -162,8 +162,8 @@ section#about .container {
 /* knowledge */
 section#knowledge {
 	margin:0;
-	width: 100%;
 	padding:25px 0;
+	width: 100%;
 }
 
 section#knowledge .container {
@@ -173,11 +173,11 @@ section#knowledge .container {
 /* Works */
 
 section#portafolio {
-	color: #E6E6E6;
 	background: #e95b4d;
+	color: #E6E6E6;
 	margin:0;
-	width: 100%;
 	padding:25px 0;
+	width: 100%;
 }
 
 section#portafolio .container {
@@ -188,10 +188,10 @@ section#portafolio .container {
 /* Contact Me */ 
 
 section#contact {
-	margin:0;
-	width: 100%;
-	padding:25px 0;
 	height: 600px;
+	margin:0;
+	padding:25px 0;
+	width: 100%;
 }
 
 section#contact .container {
@@ -212,8 +212,8 @@ section#footer .container {
 }
 
 section#footer .container h2 {
-	margin: 0;
 	line-height: 146px;
+	margin: 0;
 }
 
 section#footer .container .footer-page {
