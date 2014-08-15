@@ -111,21 +111,20 @@ section.separator > .container h2 {
 /* Home */
 
 section#home {
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	-webkit-background-size: cover;
-	background-position: 0px 100%;
-	background-size: cover;
-	background: url(../images/back-1.jpg) no-repeat;
-	color: #E6E6E6;
+	z-index: 6;
 	height: 100%;
 	min-height: 300px;
-	z-index: 6;
-	
+	background: url(../images/back-10.jpg) no-repeat;
+	background-position: 0px 100%;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	color: #E6E6E6;
 }
 
 section#home .fullscreen {
-	/*background: rgba(34, 34, 34, .5) !important;*/
+	background: rgba(34, 34, 34, .6) !important;
 	height: 100%;
 	left:0;
 	top:0;
@@ -138,7 +137,7 @@ section#home .fullscreen .home-page {
 }
 
 section#home .fullscreen .home-page .inner-home{
-	border: 1px solid red;
+	border: 1px solid #585858;
 	height: 100%;
 }
 
