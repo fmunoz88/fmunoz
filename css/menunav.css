@@ -35,6 +35,59 @@ nav #wrapper-nav .nav-menu ul li a:hover {
     background: #47a3da;
 }
 
+/* Inner nav */
+
+nav #wrapper-nav .nav-menu #nav-sub ul li .wrapper-sub {
+    z-index: 999;
+    position: absolute;
+    left: 0;
+    background: #47a3da;
+    top: -354px;
+    width: 100%;
+    border-top: 4px solid white;
+}
+
+nav #wrapper-nav .wrapper-sub-inner {
+    height: 350px;
+    margin: 0 auto;
+    padding: 0;
+    width: 1170px;
+}
+
+nav #wrapper-nav .wrapper-sub-inner ul {
+    /*border: 1px solid red;*/
+    display: inline-block;
+    height: 295px;
+    vertical-align: top;
+    width: 33%;
+    margin: 0;
+    padding: 37px 0;
+    text-align: left;
+}
+
+nav #wrapper-nav .wrapper-sub-inner ul h4 {
+    color: #afdefa;
+    padding: 20px 60px;
+    margin: 0;
+    font-size: 160%;
+    font-weight: 300;
+}
+
+nav #wrapper-nav .wrapper-sub-inner ul li {
+    display: block;
+    padding: 0 40px;
+}
+
+nav #wrapper-nav .wrapper-sub-inner ul li a{
+    color: white;
+    /*border: 1px solid green;*/
+    line-height: 40px;
+}
+
+nav #wrapper-nav .wrapper-sub-inner ul li a:hover {
+    text-decoration: underline !important;
+}
+
 /* Nav Click movil */
 
 nav #wrapper-nav .nav-menu .nav-click {
