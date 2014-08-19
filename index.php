@@ -38,8 +38,8 @@
 							<a href="#contact" class="clickscroll">CONTACT ME</a>
 						</li>
 						<li class="border-none-bottom">
-							<a href="#" class="clickscroll">MENÚ</a>
-								<div class="wrapper-sub">
+							<a href="#" id="button-submenu" class="">MENÚ</a>
+								<div id="wrapper-sub" class="wrapper-sub hidden-nav submenu-fixed">
 									<div class="wrapper-sub-inner">
 									<ul>
 										<h4>Opción</h4>
@@ -174,6 +174,7 @@
     <script>
 		$(function() {
 			menuClickMovil.init();
+			menuClickSubmenu.init();
 		});
 	</script>
 </body>

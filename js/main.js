@@ -11,6 +11,52 @@ $(document).ready(function(){
    
 });
 
+/* Open Click submenu */
+var menuClickSubmenu = (function() {
+ 
+    var $listItems = $( '.border-none-bottom' ),
+        $menuClick = $listItems.children( 'a' ),
+        $body = $( 'body' ),
+        current = -1;
+ 
+    function init() {
+        $menuClick.on( 'click', open );
+        $listItems.on( 'click', function( event ) { event.stopPropagation(); } );
+    }
+ 
+    function open( event ) {
+
+        if( current !== -1 ) {
+            $("#wrapper-sub").addClass( 'hidden-nav' );
+        }
+
+        var idx = -1;
+ 
+        if( current !== idx ) {
+            $("#wrapper-sub").addClass( 'hidden-nav' );
+            current = -1;
+        }
+        else {
+            $("#wrapper-sub").removeClass( 'hidden-nav' );
+            current = 1;
+            idx = 2;
+            $body.off( 'click' ).on( 'click', close );
+        }
+ 
+        return false;
+ 
+    }
+ 
+    function close( event ) {
+        $("#wrapper-sub").addClass( 'hidden-nav' );
+        current = -1;
+    }
+ 
+    return { init : init };
+ 
+})();
+
+
 /* Click menú movil */
 var menuClickMovil = (function() {
  

@@ -42,8 +42,11 @@ nav #wrapper-nav .nav-menu #nav-sub ul li .wrapper-sub {
     position: absolute;
     left: 0;
     background: #47a3da;
-    top: -354px;
     width: 100%;
+}
+
+.submenu-fixed {
+    top: -354px;
     border-top: 4px solid white;
 }
 
@@ -86,6 +89,12 @@ nav #wrapper-nav .wrapper-sub-inner ul li a{
 
 nav #wrapper-nav .wrapper-sub-inner ul li a:hover {
     text-decoration: underline !important;
+}
+
+/* Nav click open */
+
+.hidden-nav {
+    display: none;
 }
 
 /* Nav Click movil */
