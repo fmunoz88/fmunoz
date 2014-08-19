@@ -96,6 +96,15 @@
 		width: 64.3%;
 	}
 
+	.submenu-top {
+	    top: inherit !important;
+	}
+
+	.nav-border {
+	    border-top: none !important; 
+	    border-bottom: 4px solid white;
+	}
+
 }
 
 /* -- Desktops Medium -- */

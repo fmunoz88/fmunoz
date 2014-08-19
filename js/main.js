@@ -110,17 +110,21 @@ $(window).bind('scroll', function() {
     
         var navHeight = $( window ).height() - 70;
 
-        if ($(window).scrollTop() > navHeight) {
+        if ($(window).scrollTop() > navHeight) { //Abajo
             $('nav').addClass('fixed-nav');
+            $("#wrapper-sub").removeClass('submenu-top');
+            $("#wrapper-sub").removeClass('nav-border');
+            $("#wrapper-sub").addClass('nav-borderbottom');
         }
-        else {
+        else { //Arriba
             $('nav').removeClass('fixed-nav');
+            $("#wrapper-sub").addClass('submenu-top');
+            $("#wrapper-sub").addClass('nav-border');
+            $("#wrapper-sub").removeClass('nav-borderbottom');
         }
         
     }else{
-
         $('nav').removeClass('fixed-nav');
-
     }
 
 });

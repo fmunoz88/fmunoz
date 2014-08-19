@@ -45,9 +45,19 @@ nav #wrapper-nav .nav-menu #nav-sub ul li .wrapper-sub {
     width: 100%;
 }
 
-.submenu-fixed {
+/* Top resolución desktop */
+.submenu-top {
     top: -354px;
+}
+
+/* border nav bottom */
+.nav-border {
     border-top: 4px solid white;
+}
+
+/* border nav fixed */
+.nav-borderbottom {
+    border-bottom: 4px solid white;
 }
 
 nav #wrapper-nav .wrapper-sub-inner {
