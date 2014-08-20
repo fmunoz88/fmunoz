@@ -106,7 +106,7 @@ var menuClickMovil = (function() {
 
 $(window).bind('scroll', function() {
 
-    if($(window).width() > 976){
+    if($(window).width() > 974){
     
         var navHeight = $( window ).height() - 70;
 

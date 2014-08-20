@@ -46,6 +46,10 @@
 		display: block !important;
 	}
 
+	nav #wrapper-nav .wrapper-sub-inner ul li {
+ 		border-top: none !important;
+	}
+
     /* Footer */
 	section#footer .container .footer-left {
 		width: 100%;
@@ -74,6 +78,10 @@
 	nav #wrapper-nav .nav-menu ul li a {
 	    line-height: 50px !important;
 	    padding: 0px 20px !important;
+	}
+
+	nav #wrapper-nav .wrapper-sub-inner ul {
+	    width: 32.8% !important;
 	}
 
 	/* Home */

@@ -9,7 +9,7 @@
 	<link rel="stylesheet" href="css/responsive.css">
 	<link rel="stylesheet" type="text/css" href="css/menunav.css" />
 	<!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
 </head>
 <body>
 	<nav>
@@ -42,7 +42,7 @@
 								<div id="wrapper-sub" class="wrapper-sub hidden-nav submenu-top nav-border">
 									<div class="wrapper-sub-inner">
 									<ul>
-										<h4>Opción</h4>
+										<h4>Tutoriales</h4>
 										<li><a href="">Opción</a></li>
 										<li><a href="">Opción</a></li>
 										<li><a href="">Opción</a></li>

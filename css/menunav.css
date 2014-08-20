@@ -64,7 +64,7 @@ nav #wrapper-nav .wrapper-sub-inner {
     height: 350px;
     margin: 0 auto;
     padding: 0;
-    width: 1170px;
+    max-width: 1170px;
 }
 
 nav #wrapper-nav .wrapper-sub-inner ul {
@@ -83,7 +83,7 @@ nav #wrapper-nav .wrapper-sub-inner ul h4 {
     padding: 20px 60px;
     margin: 0;
     font-size: 160%;
-    font-weight: 300;
+    font-weight: 300 !important;
 }
 
 nav #wrapper-nav .wrapper-sub-inner ul li {
@@ -94,7 +94,7 @@ nav #wrapper-nav .wrapper-sub-inner ul li {
 nav #wrapper-nav .wrapper-sub-inner ul li a{
     color: white;
     /*border: 1px solid green;*/
-    line-height: 40px;
+    line-height: 2em;
 }
 
 nav #wrapper-nav .wrapper-sub-inner ul li a:hover {
