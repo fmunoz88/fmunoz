@@ -29,8 +29,14 @@
 	}
 
     nav #wrapper-nav .nav-menu ul li {
-	    border-top: 1px solid #ccc;
+	    border-top: 4px solid #47a3da;
 	    display: block !important;
+	    font-weight: 500;
+	    font-size: 120%;
+	}
+
+    nav #wrapper-nav .nav-menu .nav-sub ul li a {
+	    padding: 0px 3em !important; 
 	}
 
 	/* Nav Click open */
@@ -75,9 +81,9 @@
 		top: 0 !important;
 	}
 
-	nav #wrapper-nav .nav-menu ul li a {
-	    line-height: 50px !important;
-	    padding: 0px 20px !important;
+	nav #wrapper-nav .nav-menu .nav-sub ul li a {
+	    line-height: 50px;
+	    padding: 0px 20px;
 	}
 
 	nav #wrapper-nav .wrapper-sub-inner ul {
