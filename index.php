@@ -39,7 +39,7 @@
 							<a href="#contact" class="clickscroll">CONTACT ME</a>
 						</li>
 						<li class="border-none-bottom">
-							<a href="#" id="button-submenu" class="">MENÚ</a>
+							<a href="#" id="button-submenu" class="glyphicon glyphicon-align-justify"></a>
 								<div id="wrapper-sub" class="wrapper-sub hidden-nav submenu-top nav-border">
 									<div class="wrapper-sub-inner">
 									<ul>
