@@ -15,7 +15,7 @@
 }
 
 .color-th-logo {
-    background: #95a5a6
+    background: #E6E6E6;
 }
 
 .color-th-b {
@@ -34,6 +34,10 @@
     background: #e74c3c;
 }
 
+.color-td-logo {
+
+}
+
 .color-th-td {
     background: #27ae60;
     height: 70px;
@@ -43,6 +47,10 @@
 
 .color-border-right {
     border-right: 1px solid white;
+}
+
+.border-td-top {
+    border-top: 1px solid #ccc;
 }
 
 /* border tr */
@@ -71,11 +79,11 @@
 }
 
 .knowledge-table table td.logo {
-    height: 90px;
+    height: 110px;
 }
 
 .knowledge-table table img{
-    height: 80px;
+    height: 100px !important;
     padding: 0;
     margin: 0;
 }

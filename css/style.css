@@ -50,6 +50,7 @@ h2 { font-weight: 700 !important; }
 .radius-topleft { border-radius: 20px 0px 0px 0px !important; }
 .radius-topright { border-radius: 0px 20px 0px 0px !important; }
 .radius-topleftright { border-radius: 0px 40px 40px 0px !important; }
+.radius-bottomleft { border-radius: 0px 0px 0px 40px !important; }
 
 /*.fullscreen {
 	width: 100%;
