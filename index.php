@@ -117,42 +117,42 @@
 					</thead>
 					<tbody>
 						<tr>
-							<td class="logo"><img src="images/logos/html.png"></td>
+							<td class="logo"><img src="images/logos/html.png" alt="logo"></td>
 							<td class="border-td-right color-th-b"><div class="color-th-td"></div></td>
 							<td class="border-td-right color-th-i"><div class="color-th-td"></div></td>
 							<td class="color-th-a"><div class="color-th-td radius-topleftright color-border-right"></div></td>
 							<td class="color-th-e"></td>
 						</tr>
 						<tr class="border-tr">
-							<td class="logo"><img src="images/logos/javascript.png" style=" margin: -20px 0px; height:120px;"></td>
+							<td class="logo"><img src="images/logos/javascript.png" alt="logo" style=" margin: -20px 0px; height:120px;"></td>
 							<td class="border-td-right color-th-b"><div class="color-th-td"></div></td>
 							<td class="color-th-i"><div class="color-th-td radius-topleftright color-border-right"></div></td>
 							<td class="color-th-a"></td>
 							<td class="color-th-e"></td>
 						</tr>
 						<tr class="border-tr">
-							<td class="logo"><img src="images/logos/ajax.png" style="height:70px;"></td>
+							<td class="logo"><img src="images/logos/ajax.png" alt="logo" style="height:70px;"></td>
 							<td class="border-td-right color-th-b"><div class="color-th-td"></div></td>
 							<td class="color-th-i"><div class="color-th-td radius-topleftright color-border-right"></div></td>
 							<td class="color-th-a"></td>
 							<td class="color-th-e"></td>
 						</tr>
 						<tr class="border-tr">
-							<td class="logo"><img src="images/logos/jquery.png" style="height:35px;"></td>
+							<td class="logo"><img src="images/logos/jquery.png" alt="logo" style="height:35px;"></td>
 							<td class="border-td-right color-th-b"><div class="color-th-td"></div></td>
 							<td class="color-th-i"><div class="color-th-td radius-topleftright color-border-right"></div></td>
 							<td class="color-th-a"></td>
 							<td class="color-th-e"></td>
 						</tr>
 						<tr class="border-tr">
-							<td class="logo"><img src="images/logos/php.png" style="height:50px;"></td>
+							<td class="logo"><img src="images/logos/php.png" alt="logo" style="height:50px;"></td>
 							<td class="border-td-right color-th-b"><div class="color-th-td"></div></td>
 							<td class="border-td-right color-th-i"><div class="color-th-td"></div></td>
 							<td class="color-th-a"><div class="color-th-td radius-topleftright color-border-right"></div></td>
 							<td class="color-th-e"></td>
 						</tr>
 						<tr class="border-tr">
-							<td class="logo"><img src="images/logos/mysql.png"></td>
+							<td class="logo"><img src="images/logos/mysql.png" alt="logo"></td>
 							<td class="border-td-right color-th-b"><div class="color-th-td"></div></td>
 							<td class="color-th-i"><div class="color-th-td radius-topleftright color-border-right"></div></td>
 							<td class="color-th-a"></td>
@@ -216,7 +216,7 @@
 				<h2>FOOTER</h2>
 				<div class="footer-page-inner ">
 					<div class="logo">
-						<img src="images/HTML5-Logo.png" alt="logo" />
+						<img src="images/logos/html.png" alt="logo" />
 					</div>
 				</div>
 			</div>
