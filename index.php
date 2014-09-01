@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
 	<title>Prueba Diseño</title>
  	<meta charset="utf-8">
@@ -8,6 +8,7 @@
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/responsive.css">
 	<link rel="stylesheet" type="text/css" href="css/menunav.css" />
+	<link rel="stylesheet" type="text/css" href="css/tableKnowledge.css" />
 	<!-- Bootstrap -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
 </head>
@@ -81,27 +82,90 @@
 	</section>
 	<section class="separator">
 		<div class="container separator-1">
-			<div class="f-left">
-				<h2>LEFT BAR</h2>
+			<div class="f-left inner-separator1">
+				<h2>FLAT DESIGN</h2>
+				<p>Diseños minimalistas con colores suaves y brillantes.</p>
 			</div>
-			<div class="f-right">
-				<h2>RIGHT BAR</h2>
+			<div class="f-left inner-separator1">
+				<h2>MAIN FEATURES</h2>
+				<p>Diseño fluido, usabilidad y diseño agradable a la vista.</p>
+			</div>
+			<div class="f-left inner-separator1">
+				<h2>RESPONSIVE DESIGN</h2>
+				<p>Diseños adaptables a cuaquier dispositivo para entregar una mejor experiencia de navegación.</p>
 			</div>
 		</div>
 	</section>
 	<section id="about">
 		<div class="container">
-			<h2>ABOUT</h2>
+			<h2 class="title">ABOUT</h2>
 		</div>
 	</section>
 	<section id="knowledge">
 		<div class="container">
-			<h2>KNOWLEDGE</h2>
+			<h2 class="title">KNOWLEDGE</h2>
+			<div class="knowledge-table">
+				<table>
+					<thead>
+						<tr>
+							<th></th>
+							<th class="header radius-topleft color-th-b">Beginner</th>
+							<th class="header color-th-i">Intermediate</th>
+							<th class="header color-th-a">Advanced</th>
+							<th class="header radius-topright color-th-e">Expert</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td class="logo"><img src="images/logos/html.png"></td>
+							<td class="border-td-right color-th-b"><div class="color-th-td"></div></td>
+							<td class="border-td-right color-th-i"><div class="color-th-td"></div></td>
+							<td class="color-th-a"><div class="color-th-td radius-topleftright color-border-right"></div></td>
+							<td class="color-th-e"></td>
+						</tr>
+						<tr class="border-tr">
+							<td class="logo"><img src="images/logos/javascript.png" style=" margin: -20px 0px; height:120px;"></td>
+							<td class="border-td-right color-th-b"><div class="color-th-td"></div></td>
+							<td class="color-th-i"><div class="color-th-td radius-topleftright color-border-right"></div></td>
+							<td class="color-th-a"></td>
+							<td class="color-th-e"></td>
+						</tr>
+						<tr class="border-tr">
+							<td class="logo"><img src="images/logos/ajax.png" style="height:70px;"></td>
+							<td class="border-td-right color-th-b"><div class="color-th-td"></div></td>
+							<td class="color-th-i"><div class="color-th-td radius-topleftright color-border-right"></div></td>
+							<td class="color-th-a"></td>
+							<td class="color-th-e"></td>
+						</tr>
+						<tr class="border-tr">
+							<td class="logo"><img src="images/logos/jquery.png" style="height:35px;"></td>
+							<td class="border-td-right color-th-b"><div class="color-th-td"></div></td>
+							<td class="color-th-i"><div class="color-th-td radius-topleftright color-border-right"></div></td>
+							<td class="color-th-a"></td>
+							<td class="color-th-e"></td>
+						</tr>
+						<tr class="border-tr">
+							<td class="logo"><img src="images/logos/php.png" style="height:50px;"></td>
+							<td class="border-td-right color-th-b"><div class="color-th-td"></div></td>
+							<td class="border-td-right color-th-i"><div class="color-th-td"></div></td>
+							<td class="color-th-a"><div class="color-th-td radius-topleftright color-border-right"></div></td>
+							<td class="color-th-e"></td>
+						</tr>
+						<tr class="border-tr">
+							<td class="logo"><img src="images/logos/mysql.png"></td>
+							<td class="border-td-right color-th-b"><div class="color-th-td"></div></td>
+							<td class="color-th-i"><div class="color-th-td radius-topleftright color-border-right"></div></td>
+							<td class="color-th-a"></td>
+							<td class="color-th-e"></td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
 		</div>
 	</section>
 	<section id="portafolio">
 		<div class="container">
-			<h2>WORKS</h2>
+			<h2 class="title">WORKS</h2>
 		</div>
 	</section>
 	<section class="separator">
@@ -118,7 +182,7 @@
 	</section>
 	<section id="contact">
 		<div class="container">
-			<h2>CONTACT ME</h2>
+			<h2 class="title">CONTACT ME</h2>
 		</div>
 	</section>
 	<section id="footer">

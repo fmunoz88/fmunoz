@@ -1,9 +1,13 @@
+/* =============================== */
+/* === Developer: Fabián Muñoz === */
+/* =============================== */
+
 nav {
     width: 100%;
     background: white;
     border-top: 4px solid #47a3da;
     bottom: 0;
-    font-size: 15px;
+    font-size: 16px;
     height: 67px;
     position: absolute;
 }

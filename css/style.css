@@ -1,11 +1,13 @@
-/* ==== Google font ==== */
-/*@import url('http://fonts.googleapis.com/css?family=Lato:400,300,700,900');*/
+/* =============================== */
+/* === Developer: Fabián Muñoz === */
+/* =============================== */
 
 html, body {height:100%;}
 
 body {
 	margin: 0px;
 	padding: 0px;
+	font: 20px/22px "Lato", "Century Gothic", "Trebuchet MS", Helvetica, sans-serif !important;
 }
 
 .clear { clear: both; }
@@ -21,6 +23,8 @@ ul, li {
 	margin: 0px;
 	padding: 0px;
 }
+
+h2 { font-weight: 700 !important; }
 
 /* li sin border */
 
@@ -42,6 +46,10 @@ ul, li {
 .f-right { float: right; } 
 
 .z-1 { z-index: 1; }
+
+.radius-topleft { border-radius: 20px 0px 0px 0px !important; }
+.radius-topright { border-radius: 0px 20px 0px 0px !important; }
+.radius-topleftright { border-radius: 0px 40px 40px 0px !important; }
 
 /*.fullscreen {
 	width: 100%;
@@ -72,7 +80,6 @@ ul, li {
 section.separator {
 	background: #2E2E2E;
 	color: #E6E6E6;
-	min-height: 150px;
 }
 
 section.separator > .container {
@@ -81,13 +88,19 @@ section.separator > .container {
 
 section.separator > .container h2 {
 	margin: 0;
-	line-height: 146px;
 }
 
 /* button nav movil*/
 
 .main > .nav-movil {
 	display: none;
+}
+
+/* H2 Title */
+.title {
+	text-align: center !important;
+	padding: 10px 0px 20px 0px !important;
+	font-size: 35px;
 }
 
 /* Home */
@@ -124,6 +137,23 @@ section#home .fullscreen .home-page .inner-home{
 }
 
 /* Page Content */
+
+.inner-separator1 {
+	width: 33%; 
+	text-align: center;
+	padding: 30px 20px 5px 20px;
+}
+
+.inner-separator1 h2 {
+	color: #FFBF00;
+}
+
+.inner-separator1 p {
+	padding: 20px 0px;
+	font-size: 16px;
+	line-height: 20px;
+	color: white;
+}
 
 /* About */
 

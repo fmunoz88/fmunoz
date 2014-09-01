@@ -1,3 +1,6 @@
+/* =============================== */
+/* === Developer: Fabián Muñoz === */
+/* =============================== */
 /* responsive */
 
 /* -- Phone -- */
@@ -50,6 +53,16 @@
  		border-top: none !important;
 	}
 
+	/* Separator 1 */
+	.inner-separator1 {
+		width: 99%;
+	}
+
+	.inner-separator1 h2 {
+		font-size: 23px;
+	}
+
+
     /* Footer */
 	section#footer .container .footer-left {
 		width: 100%;
@@ -92,6 +105,13 @@
 	section#home .fullscreen .home-page {
 		height: 100%;
 		padding: 80px 0px 40px 0px;
+	}
+
+	/* Separator 1 */
+	.inner-separator1 h2 {
+		font-weight: 700;
+		color: #FFBF00;
+		font-size: 25px;
 	}
 
 	/* Footer */
