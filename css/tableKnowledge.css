@@ -68,6 +68,7 @@
 
 .knowledge-table table tbody tr {
     padding: 10px 0px !important;
+    color: black;
 }
 
 /*.knowledge-table table tbody tr:hover {
