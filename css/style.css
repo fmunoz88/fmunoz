@@ -7,14 +7,7 @@ html, body {height:100%;}
 body {
 	margin: 0px;
 	padding: 0px;
-	/*font: 20px/22px "Lato", "Century Gothic", "Trebuchet MS", Helvetica, sans-serif !important;*/
-}
-
-body, input, textarea, select {
-	font-family: 'Source Sans Pro', sans-serif;
-	font-size: 12pt;
-	font-weight: 300;
-	line-height: 1.75em;
+	font: 20px/22px "Lato", "Century Gothic", "Trebuchet MS", Helvetica, sans-serif !important;
 }
 
 .clear { clear: both; }
@@ -59,25 +52,6 @@ h2 { font-weight: 700 !important; }
 .radius-topleftright { border-radius: 0px 40px 40px 0px !important; }
 .radius-bottomleft { border-radius: 0px 0px 0px 40px !important; }
 
-form input.text, form select, form textarea {
-	-webkit-appearance: none;
-	display: block;
-	background: none;
-	border: solid 2px;
-	border-color: #555555;
-	border-color: rgba(255,255,255,0.2);
-	border-radius: 0.35em;
-	width: 100%;
-	padding: 0.85em;
-	-moz-transition: border-color 0.25s ease-in-out;
-	-webkit-transition: border-color 0.25s ease-in-out;
-	-o-transition: border-color 0.25s ease-in-out;
-	-ms-transition: border-color 0.25s ease-in-out;
-	transition: border-color 0.25s ease-in-out;
-	outline: none;
-	color: #aaa;
-	color: rgba(255,255,255,0.5);
-}
 /*.fullscreen {
 	width: 100%;
 	height: 100%;
@@ -226,7 +200,7 @@ section#portafolio .container {
 /* Contact Me */ 
 
 section#contact {
-	background: #1c1c1c;
+	height: 600px;
 	margin:0;
 	padding:25px 0;
 	width: 100%;
@@ -234,78 +208,18 @@ section#contact {
 
 section#contact .container {
 	border-radius: 5px;
-	padding-bottom: 50px;
-}
-
-section#contact .container h2 {
-	color: #FFF;
-}
-
-section#contact div.container form.form {
-	margin: 0 auto;
-	width: 70%;
-}
-
-section#contact div.container form.form .input {
-	width: 49%;
-}
-
-section#contact div.container form.form div.textArea {
-	margin-top: 16px;
-}
-
-section#contact div.container form.form div.textArea textarea {
-	min-height: 15em;
-	-webkit-rtl-ordering: logical;
-	-webkit-user-select: text;
-	flex-direction: column;
-	resize: auto;
-	cursor: auto;
-	white-space: pre-wrap;
-	word-wrap: break-word;
-}
-
-section#contact div.container form.form div.formButton {
-	margin-top: 16px;
-	text-align: center;
-}
-
-section#contact div.container form.form div.formButton a.button {
-	display: inline-block;
-	background: none;
-	border: 2px solid;
-	border-color: #555555;
-	border-radius: 8px;
-	font-size: 0.85em;
-	letter-spacing: 2px;
-	padding: 0.85em 2.75em 0.85em 2.75em;
-	color: #fff !important;
-	text-transform: uppercase;
-	text-decoration: none;
-	font-size: 1em;
-	font-weight: 600;
-	transition: color 0.35s ease-in-out, background-color 0.35s ease-in-out, border-color 0.35s ease-in-out;
-}
-
-section#contact div.container form.form div.formButton a.button:hover {
-	background: #fff;
-	background: rgba(255,255,255,0.8);
-	border-color: #fff;
-	border-color: rgba(255,255,255,0.2);
-	color: #000 !important;
+	height: 600px;
 }
 
 /* Footer */ 
 
 section#footer {
-	background-color: #151515;
-	/*box-shadow: 0 1px 5px #000 inset, 0 1px 0 #444; */
+	background: #2E2E2E;
 	color: #E6E6E6;
-	height: 300px;
 }
 
 section#footer .container {
-	/*border: 1px solid blue;*/
+	border: 1px solid blue;
 	/*height: 400px;*/
 }
 
