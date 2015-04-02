@@ -10,7 +10,9 @@
 	<link rel="stylesheet" type="text/css" href="css/menunav.css" />
 	<link rel="stylesheet" type="text/css" href="css/tableKnowledge.css" />
 	<!-- Bootstrap -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!--<link rel="stylesheet" href="css/bootstrap.min.css">-->
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
 </head>
 <body>
 	<nav>
@@ -117,14 +119,14 @@
 					</thead>
 					<tbody>
 						<tr>
-							<td class="logo color-th-logo radius-topleft"><img src="images/logos/html2.png" alt="logo"></td>
+							<td class="logo color-th-logo radius-topleft"><img src="images/logos/html2.png" alt="logo" class="pop" data-toggle="popover" data-content="HTML 5" style="color:black;"></td>
 							<td class="border-td-right color-th-b"><div class="color-th-td"></div></td>
 							<td class="border-td-right color-th-i"><div class="color-th-td"></div></td>
-							<td class="color-th-a"><div class="color-th-td radius-topleftright color-border-right"></div></td>
+							<td class="color-th-a"><div class="color-th-td radius-topleftright color-border-right" ></div></td>
 							<td class="color-th-e"></td>
 						</tr>
 						<tr class="border-tr">
-							<td class="logo color-th-logo"><img src="images/logos/javascript2.png" alt="logo"></td>
+							<td class="logo color-th-logo"><img src="images/logos/javascript2.png" alt="logo" alt="logo" class="pop" data-toggle="popover" data-content="JAVASCRIPT" style="color:black;"></td>
 							<td class="border-td-right color-th-b"><div class="color-th-td"></div></td>
 							<td class="color-th-i"><div class="color-th-td radius-topleftright color-border-right"></div></td>
 							<td class="color-th-a"></td>
@@ -168,7 +170,7 @@
 			<h2 class="title">WORKS</h2>
 		</div>
 	</section>
-	<section class="separator">
+	<section class="separator" style="color: black; height:150px; background: #F2F2F2;">
 		<div class="container">
 			<div id="separator-2">
 				<div class="f-left">
@@ -182,44 +184,26 @@
 	</section>
 	<section id="contact">
 		<div class="container">
-			<h2 class="title">CONTACT ME</h2>
+			<h2 class="title">CONTACT</h2>
+			<form class="form">
+				<div class="input f-left">
+					<input name="name" placeholder="Name" type="text" class="text">
+				</div>
+				<div class="input f-right">
+					<input name="email" placeholder="Email" type="text" class="text">
+				</div>
+				<div class="clear"></div>
+				<div class="textArea">
+					<textarea name="message" placeholder="Message"></textarea>
+				</div>
+				<div class="formButton">
+					<a class="button" href="">SUBMIT</a>
+				</div>
+			</form>
 		</div>
 	</section>
 	<section id="footer">
 		<div class="container">
-			<div class="footer-page footer-left">
-				<div class="footer-page-inner">
-					<p>Título</p>
-					<ul>
-						<li>
-							<a href="">opción 1</a>
-						</li>
-						<li>
-							<a href="">opción 1</a>
-						</li>
-						<li>
-							<a href="">opción 1</a>
-						</li>
-						<li>
-							<a href="">opción 1</a>
-						</li>
-						<li>
-							<a href="">opción 1</a>
-						</li>
-						<li>
-							<a href="">opción 1</a>
-						</li>
-					</ul>
-				</div>
-			</div>
-			<div class="footer-page footer-right">
-				<h2>FOOTER</h2>
-				<div class="footer-page-inner ">
-					<div class="logo">
-						<img src="images/logos/html.png" alt="logo" />
-					</div>
-				</div>
-			</div>
 		</div>
 	</section>
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -233,13 +217,24 @@
      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/main.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+    <!--<script src="js/bootstrap.min.js"></script>-->
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
     <script src='js/jquery.scrollto.js'></script>
     <script>
 		$(function() {
 			menuClickMovil.init();
 			menuClickSubmenu.init();
 		});
+
+		$(document).ready(function(){
+		    $(".pop").popover({
+		        placement : 'top',
+		        trigger : 'hover',
+		        placement : 'left'
+		    });
+		});
+
+
 	</script>
 </body>
 </html>
