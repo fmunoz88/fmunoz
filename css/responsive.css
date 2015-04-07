@@ -86,6 +86,7 @@
 		font-size: 75% !important;
 		height: 50px !important;
 		top: 0 !important;
+        position: fixed !important;
 	}
 
 	nav #wrapper-nav .nav-menu ul li a {
