@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-	<title>Test Design 2.0</title>
+	<title>Test Design</title>
  	<meta charset="utf-8">
  	<meta name="description" content="">
     <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
