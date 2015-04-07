@@ -184,10 +184,10 @@
 		<div class="container">
 			<div id="separator-2">
 				<div class="f-left">
-					<h2>LEFT LOGO</h2>
+					<h2>LEFT LOGO 1</h2>
 				</div>
 				<div class="f-right">
-					<h2>RIGHT LOGO</h2>
+					<h2>RIGHT LOGO 2</h2>
 				</div>
 			</div>
 		</div>
