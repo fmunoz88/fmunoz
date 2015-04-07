@@ -346,7 +346,7 @@ section#footer .container .footer-right img {
 /*** == Letras header SVG == ****/
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:800);
 
-.text {
+#text-header {
     font: 4.5em/1 Open Sans, Impact;
     text-transform: uppercase;
     fill: rgba(227, 144, 144, 0.9);
