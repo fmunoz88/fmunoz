@@ -82,6 +82,7 @@
 			<div class="container home-page">
 				<div class="inner-home">
 					<h1>Fabián Muñoz</h1>
+                    <h2>Developer Designer</h2>
                     <!--<svg viewBox="0 0 600 300">
                       <text id="text-header" text-anchor="middle"
                             x="50%"

@@ -34,7 +34,7 @@ ul, li {
 h2 { font-weight: 700 !important; }
 
 h1 {
-  font: 400 70px/1.2 'Sansita one', Georgia, serif !important;
+  font: 400 90px/1.2 'Sansita one', Georgia, serif !important;
 }
 
 p {
@@ -182,10 +182,20 @@ section#home .fullscreen .home-page .inner-home{
 section#home .fullscreen .home-page .inner-home h1{
 	margin: 0 !important;
     position: absolute !important;
-    top: 45% !important;
+    top: 41% !important;
     left: 50% !important;
     margin-right: -50% !important;
     transform: translate(-50%, -50%) !important;
+}
+
+section#home .fullscreen .home-page .inner-home h2{
+	margin: 0 !important;
+    position: absolute !important;
+    top: 50% !important;
+    left: 50% !important;
+    margin-right: -50% !important;
+    transform: translate(-50%, -50%) !important;
+    font: 400 45px/1.2 'Sansita one', Georgia, serif !important;
 }
 
 /* Page Content */

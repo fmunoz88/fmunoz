@@ -15,6 +15,26 @@
         height: 100%;
         padding: 100px 40px 50px 40px !important;
     }
+    
+    section#home .fullscreen .home-page .inner-home h1{
+        margin: 0 !important;
+        position: absolute !important;
+        top: 41% !important;
+        left: 50% !important;
+        margin-right: -50% !important;
+        transform: translate(-50%, -50%) !important;
+        font: 400 50px/1.2 'Sansita one', Georgia, serif !important;
+    }
+
+    section#home .fullscreen .home-page .inner-home h2{
+        margin: 0 !important;
+        position: absolute !important;
+        top: 49% !important;
+        left: 50% !important;
+        margin-right: -50% !important;
+        transform: translate(-50%, -50%) !important;
+        font: 400 27px/1.2 'Sansita one', Georgia, serif !important;
+    }
 
     /* Nav responsivo movil */
     nav {
