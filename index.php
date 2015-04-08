@@ -13,6 +13,10 @@
     <!--<link rel="stylesheet" href="css/bootstrap.min.css">-->
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
 	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+    
+    <link href='http://fonts.googleapis.com/css?family=Sansita+One' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Muli' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Bree+Serif' rel='stylesheet' type='text/css'>
 </head>
 <body>
 	<nav>
@@ -77,8 +81,8 @@
 		<div class="fullscreen">
 			<div class="container home-page">
 				<div class="inner-home">
-					<!--<h2>HOME</h2>-->
-                    <svg viewBox="0 0 600 300">
+					<h1>Fabián Muñoz</h1>
+                    <!--<svg viewBox="0 0 600 300">
                       <text id="text-header" text-anchor="middle"
                             x="50%"
                             y="50%"
@@ -88,6 +92,16 @@
                         Fabián Muñoz
                       </text>
                     </svg>
+                    <svg viewBox="0 0 600 700">
+                      <text id="text-header" text-anchor="middle"
+                            x="50%"
+                            y="50%"
+                            dy=".35em"
+                            class="text"
+                            >
+                        Developer Designer
+                      </text>
+                    </svg>-->
 				</div>
 			</div>
 		</div>
