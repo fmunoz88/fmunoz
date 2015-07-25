@@ -1,0 +1,14 @@
+{
+    "title": "truedesign Subtle Light",
+    "name": "truedesign.subtle.light",
+    "description": "Color Friendly",
+    "homepage": "https://www.behance.net/truedesign2",
+    "version": "1.3.0",
+    "author": "gabriel.paunescu87@gmail.com>",
+    "theme": {
+        "file": "theme.less",
+        "dark": false,
+        "addModeClass": true
+    },
+    "keywords": ["light", "theme", "color", "friendly", "blue", "truedesign"]
+}

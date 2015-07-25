@@ -1,0 +1,15 @@
+.RustIDE-hints-keywords {
+	color: #c800a4;
+}
+
+.RustIDE-hints-macros {
+	color: #3E999F;
+}
+
+.RustIDE-hints-fn {
+	color: #fff;
+}
+
+span.cm-rust.cm-variable-3 {
+	color: #3E999F !important;
+}

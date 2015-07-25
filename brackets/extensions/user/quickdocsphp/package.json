@@ -1,0 +1,9 @@
+{
+    "name": "quickdocsphp",
+    "title": "QuickDocsPHP",
+    "author": "Ole Kröger",
+    "homepage": "https://github.com/Wikunia/brackets-QuickDocsPHP",
+    "version": "1.4.7",
+    "engines": { "brackets": ">=0.23" },
+    "description": "Inline short documentation for PHP functions, including a summary, syntax, return values and parameters."
+}
